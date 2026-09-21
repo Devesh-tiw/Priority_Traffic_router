@@ -1,0 +1,11 @@
+path: ./dataset # Root directory of your dataset
+train: images/train # Training images path
+val: images/val # Validation images path
+
+# Classes
+nc: 4 # Number of classes
+names:
+  0: ambulance
+  1: police
+  2: car
+  3: motorcycle
