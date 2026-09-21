@@ -10,6 +10,7 @@ while cap.isOpened():
     if not ret: 
         break
 
+
     # Detect vehicles (COCO classes: 2=car, 3=motorbike, 5=bus, 7=truck)
     results = model(frame, classes=[2, 3, 5, 7], verbose=False)
     vehicle_count = len(results[0].boxes)
