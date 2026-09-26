@@ -1,104 +1,57 @@
 import cv2
-import numpy as np
-from ultralytics import YOLO
+import os
 import sys
-import os  # ADD THIS IMPORT
+from ultralytics import YOLO
 
-class SmartIntersectionAI:
-    def __init__(self, model_path='yolov8n.pt', video_sources=None):
+class SingleImageTrafficAI:
+    def __init__(self, model_path='yolov8n.pt'):
         try:
             print("Loading YOLOv8 AI Model...")
             self.model = YOLO(model_path)
         except Exception as e:
             print(f"CRITICAL ERROR: Failed to load model. {e}")
             sys.exit(1)
-            
+
+    def process_image(self, image_name='done.jpg'):
         # Get the exact folder where this Python script lives
         current_folder = os.path.dirname(os.path.abspath(__file__))
+        image_path = os.path.join(current_folder, image_name)
         
-        # Build the exact paths to your two videos
-        vid_ns = os.path.join(current_folder, "Traffic_north_south.mp4")
-        vid_ew = os.path.join(current_folder, "Traffic_east_west.mp4")
+        # Check if the image exists
+        if not os.path.exists(image_path):
+            print(f"ERROR: Image not found at {image_path}")
+            return
+
+        # Read the image
+        frame = cv2.imread(image_path)
+        if frame is None:
+            print("ERROR: Could not open or read the image file.")
+            return
+
+        # Detect vehicles (COCO dataset IDs: 2=car, 3=motorbike, 5=bus, 7=truck)
+        results = self.model(frame, verbose=False)
+        boxes = results[0].boxes
         
-        # Use those direct paths for the 4 video feeds
-        self.video_sources = video_sources or [vid_ns, vid_ns, vid_ew, vid_ew]
+        # Count vehicles and check for emergency overrides (Bus/Truck)
+        vehicle_count = len(boxes)
+        is_emergency = any(int(box.cls) in [5, 7] for box in boxes)
+
+        # Visual layout logic
+        color = (0, 255, 0) if is_emergency else (0, 0, 255)
+        status = "GREEN (OVERRIDE)" if is_emergency else "RED"
+        text = f"Status: {status} | Count: {vehicle_count} vehicles"
         
-        self.caps = [cv2.VideoCapture(vid) for vid in self.video_sources]
-        self.names = ["NORTH", "SOUTH", "EAST", "WEST"]
+        # Draw detections and text overlay
+        annotated_frame = results[0].plot()
+        cv2.putText(annotated_frame, text, (15, 35), cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 2)
 
-# ==========================================
-# SYLLABUS: Object-Oriented Programming (OOP)
-# ==========================================
-
-        
-    def run_controller(self):
-        while True:
-            frames = []
-            counts = []
-            emergency_flags = []
-
-            for cap in self.caps:
-                ret, frame = cap.read()
-                if not ret:
-                    break # Break loop if video ends
-                
-                frame = cv2.resize(frame, (400, 300))
-                
-                # Detect vehicles (COCO: 2=car, 3=motorbike, 5=bus, 7=truck)
-                results = self.model(frame, verbose=False)
-                boxes = results[0].boxes
-                
-                # PRESENTATION DEMO: Treat Buses(5) and Trucks(7) as Emergency
-                is_emergency = any(int(box.cls) in [5, 7] for box in boxes)
-                
-                counts.append(len(boxes))
-                emergency_flags.append(is_emergency)
-                frames.append(results[0].plot())
-
-            if len(frames) < 4:
-                print("End of video stream reached.")
-                break
-
-            # ==========================================
-            # SYLLABUS: Control Statements & Logic
-            # ==========================================
-            if any(emergency_flags):
-                # Override: Give GREEN to the emergency lane
-                green_index = emergency_flags.index(True)
-            else:
-                # Standard: Give GREEN to the lane with maximum vehicles
-                green_index = counts.index(max(counts))
-
-            for i in range(4):
-                # SYLLABUS: Tuples (RGB Colors)
-                color = (0, 255, 0) if i == green_index else (0, 0, 255)
-                status = "GREEN" if i == green_index else "RED"
-                warning = " !!! EMERGENCY OVERRIDE !!!" if emergency_flags[i] else ""
-                
-                text = f"{self.names[i]}: {status} ({counts[i]} vehicles){warning}"
-                cv2.putText(frames[i], text, (15, 35), cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 3)
-
-            # ==========================================
-            # SYLLABUS: NumPy Matrix Operations
-            # ==========================================
-            top_row = np.hstack((frames[0], frames[1]))
-            bottom_row = np.hstack((frames[2], frames[3]))
-            grid = np.vstack((top_row, bottom_row))
-
-            cv2.imshow("AI Vision Traffic Controller", grid)
-
-            if cv2.waitKey(1) == ord('q'):
-                break
-
-        # SYLLABUS: File/Resource Handling (Releasing memory)
-        for cap in self.caps:
-            cap.release()
+        # Show the result on screen
+        cv2.imshow("AI Vision Single Image Test", annotated_frame)
+        print("Press any key on the image window to close it...")
+        cv2.waitKey(0)  # Wait indefinitely for a key press
         cv2.destroyAllWindows()
 
-# ==========================================
-# SYLLABUS: Functions and Modules usage
-# ==========================================
 if __name__ == "__main__":
-    # Instantiate the OOP class and run the main loop
-    intersection = SmartIntersectionAI()
-    intersection.run_controller()
+    # Ensure the script runs using the class structure
+    analyzer = SingleImageTrafficAI()
+    analyzer.process_image('done.jpg')
