@@ -1,0 +1,2001 @@
+frame,time_s,lane,vehicles,priority,light,green_lane,reason
+0,588.58,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+0,588.58,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+0,588.58,EAST,5,0,RED,NORTH,Minimum green (4s) not over yet
+0,588.58,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+1,589.72,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+1,589.72,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+1,589.72,EAST,5,0,RED,NORTH,Minimum green (4s) not over yet
+1,589.72,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+2,589.76,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+2,589.76,SOUTH,10,0,RED,NORTH,Minimum green (4s) not over yet
+2,589.76,EAST,6,0,RED,NORTH,Minimum green (4s) not over yet
+2,589.76,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+3,590.10,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+3,590.10,SOUTH,10,0,RED,NORTH,Minimum green (4s) not over yet
+3,590.10,EAST,6,0,RED,NORTH,Minimum green (4s) not over yet
+3,590.10,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+4,590.13,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+4,590.13,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+4,590.13,EAST,6,0,RED,NORTH,Minimum green (4s) not over yet
+4,590.13,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+5,590.42,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+5,590.42,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+5,590.42,EAST,6,0,RED,NORTH,Minimum green (4s) not over yet
+5,590.42,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+6,590.47,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+6,590.47,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+6,590.47,EAST,8,0,RED,NORTH,Minimum green (4s) not over yet
+6,590.47,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+7,590.75,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+7,590.75,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+7,590.75,EAST,8,0,RED,NORTH,Minimum green (4s) not over yet
+7,590.75,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+8,590.79,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+8,590.79,SOUTH,10,0,RED,NORTH,Minimum green (4s) not over yet
+8,590.79,EAST,5,0,RED,NORTH,Minimum green (4s) not over yet
+8,590.79,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+9,591.06,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+9,591.06,SOUTH,10,0,RED,NORTH,Minimum green (4s) not over yet
+9,591.06,EAST,5,0,RED,NORTH,Minimum green (4s) not over yet
+9,591.06,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+10,591.10,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+10,591.10,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+10,591.10,EAST,6,0,RED,NORTH,Minimum green (4s) not over yet
+10,591.10,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+11,591.42,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+11,591.42,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+11,591.42,EAST,6,0,RED,NORTH,Minimum green (4s) not over yet
+11,591.42,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+12,591.48,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+12,591.48,SOUTH,11,0,RED,NORTH,Minimum green (4s) not over yet
+12,591.48,EAST,7,0,RED,NORTH,Minimum green (4s) not over yet
+12,591.48,WEST,10,0,RED,NORTH,Minimum green (4s) not over yet
+13,591.79,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+13,591.79,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+13,591.79,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+13,591.79,WEST,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+14,591.84,NORTH,11,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+14,591.84,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+14,591.84,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+14,591.84,WEST,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+15,592.15,NORTH,11,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+15,592.15,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+15,592.15,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+15,592.15,WEST,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+16,592.20,NORTH,11,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+16,592.20,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+16,592.20,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+16,592.20,WEST,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+17,592.52,NORTH,11,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+17,592.52,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+17,592.52,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+17,592.52,WEST,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+18,592.56,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+18,592.56,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+18,592.56,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+18,592.56,WEST,9,0,RED,NORTH,EMERGENCY vehicle on NORTH
+19,592.84,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+19,592.84,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+19,592.84,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+19,592.84,WEST,9,0,RED,NORTH,EMERGENCY vehicle on NORTH
+20,592.88,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+20,592.88,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+20,592.88,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+20,592.88,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+21,593.16,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+21,593.16,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+21,593.16,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+21,593.16,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+22,593.21,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+22,593.21,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+22,593.21,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+22,593.21,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+23,593.55,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+23,593.55,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+23,593.55,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+23,593.55,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+24,593.63,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+24,593.63,SOUTH,13,0,RED,NORTH,EMERGENCY vehicle on NORTH
+24,593.63,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+24,593.63,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+25,593.99,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+25,593.99,SOUTH,13,0,RED,NORTH,EMERGENCY vehicle on NORTH
+25,593.99,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+25,593.99,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+26,594.06,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+26,594.06,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+26,594.06,EAST,9,0,RED,NORTH,EMERGENCY vehicle on NORTH
+26,594.06,WEST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+27,594.37,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+27,594.37,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+27,594.37,EAST,9,0,RED,NORTH,EMERGENCY vehicle on NORTH
+27,594.37,WEST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+28,594.40,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+28,594.40,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+28,594.40,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+28,594.40,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+29,594.64,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+29,594.64,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+29,594.64,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+29,594.64,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+30,594.67,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+30,594.67,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+30,594.67,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+30,594.67,WEST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+31,595.01,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+31,595.01,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+31,595.01,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+31,595.01,WEST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+32,595.03,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+32,595.03,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+32,595.03,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+32,595.03,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+33,595.28,NORTH,10,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+33,595.28,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+33,595.28,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+33,595.28,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+34,595.31,NORTH,11,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+34,595.31,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+34,595.31,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+34,595.31,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+35,595.54,NORTH,11,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+35,595.54,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+35,595.54,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+35,595.54,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+36,595.57,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+36,595.57,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+36,595.57,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+36,595.57,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+37,595.81,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+37,595.81,SOUTH,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+37,595.81,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+37,595.81,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+38,595.84,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+38,595.84,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+38,595.84,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+38,595.84,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+39,596.09,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+39,596.09,SOUTH,12,0,RED,NORTH,EMERGENCY vehicle on NORTH
+39,596.09,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+39,596.09,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+40,596.13,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+40,596.13,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+40,596.13,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+40,596.13,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+41,596.38,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+41,596.38,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+41,596.38,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+41,596.38,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+42,596.41,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+42,596.41,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+42,596.41,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+42,596.41,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+43,596.65,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+43,596.65,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+43,596.65,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+43,596.65,WEST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+44,596.68,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+44,596.68,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+44,596.68,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+44,596.68,WEST,4,0,RED,NORTH,EMERGENCY vehicle on NORTH
+45,596.92,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+45,596.92,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+45,596.92,EAST,8,0,RED,NORTH,EMERGENCY vehicle on NORTH
+45,596.92,WEST,4,0,RED,NORTH,EMERGENCY vehicle on NORTH
+46,596.95,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+46,596.95,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+46,596.95,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+46,596.95,WEST,5,0,RED,NORTH,EMERGENCY vehicle on NORTH
+47,597.19,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+47,597.19,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+47,597.19,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+47,597.19,WEST,5,0,RED,NORTH,EMERGENCY vehicle on NORTH
+48,597.22,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+48,597.22,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+48,597.22,EAST,3,0,RED,NORTH,EMERGENCY vehicle on NORTH
+48,597.22,WEST,5,0,RED,NORTH,EMERGENCY vehicle on NORTH
+49,597.49,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+49,597.49,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+49,597.49,EAST,3,0,RED,NORTH,EMERGENCY vehicle on NORTH
+49,597.49,WEST,5,0,RED,NORTH,EMERGENCY vehicle on NORTH
+50,597.52,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+50,597.52,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+50,597.52,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+50,597.52,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+51,597.81,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+51,597.81,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+51,597.81,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+51,597.81,WEST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+52,597.84,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+52,597.84,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+52,597.84,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+52,597.84,WEST,9,0,RED,NORTH,EMERGENCY vehicle on NORTH
+53,598.15,NORTH,9,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+53,598.15,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+53,598.15,EAST,7,0,RED,NORTH,EMERGENCY vehicle on NORTH
+53,598.15,WEST,9,0,RED,NORTH,EMERGENCY vehicle on NORTH
+54,598.19,NORTH,8,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+54,598.19,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+54,598.19,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+54,598.19,WEST,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+55,598.57,NORTH,8,1,GREEN,NORTH,EMERGENCY vehicle on NORTH
+55,598.57,SOUTH,10,0,RED,NORTH,EMERGENCY vehicle on NORTH
+55,598.57,EAST,6,0,RED,NORTH,EMERGENCY vehicle on NORTH
+55,598.57,WEST,11,0,RED,NORTH,EMERGENCY vehicle on NORTH
+56,598.61,NORTH,9,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+56,598.61,SOUTH,9,0,RED,NORTH,Emergency hold (letting the convoy clear)
+56,598.61,EAST,6,0,RED,NORTH,Emergency hold (letting the convoy clear)
+56,598.61,WEST,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+57,598.90,NORTH,9,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+57,598.90,SOUTH,9,0,RED,NORTH,Emergency hold (letting the convoy clear)
+57,598.90,EAST,6,0,RED,NORTH,Emergency hold (letting the convoy clear)
+57,598.90,WEST,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+58,598.93,NORTH,8,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+58,598.93,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+58,598.93,EAST,5,0,RED,NORTH,Emergency hold (letting the convoy clear)
+58,598.93,WEST,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+59,599.22,NORTH,8,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+59,599.22,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+59,599.22,EAST,5,0,RED,NORTH,Emergency hold (letting the convoy clear)
+59,599.22,WEST,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+60,599.26,NORTH,8,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+60,599.26,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+60,599.26,EAST,4,0,RED,NORTH,Emergency hold (letting the convoy clear)
+60,599.26,WEST,9,0,RED,NORTH,Emergency hold (letting the convoy clear)
+61,599.55,NORTH,8,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+61,599.55,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+61,599.55,EAST,4,0,RED,NORTH,Emergency hold (letting the convoy clear)
+61,599.55,WEST,9,0,RED,NORTH,Emergency hold (letting the convoy clear)
+62,599.58,NORTH,10,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+62,599.58,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+62,599.58,EAST,5,0,RED,NORTH,Emergency hold (letting the convoy clear)
+62,599.58,WEST,6,0,RED,NORTH,Emergency hold (letting the convoy clear)
+63,599.84,NORTH,10,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+63,599.84,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+63,599.84,EAST,5,0,RED,NORTH,Emergency hold (letting the convoy clear)
+63,599.84,WEST,6,0,RED,NORTH,Emergency hold (letting the convoy clear)
+64,599.87,NORTH,10,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+64,599.87,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+64,599.87,EAST,7,0,RED,NORTH,Emergency hold (letting the convoy clear)
+64,599.87,WEST,5,0,RED,NORTH,Emergency hold (letting the convoy clear)
+65,600.14,NORTH,10,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+65,600.14,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+65,600.14,EAST,7,0,RED,NORTH,Emergency hold (letting the convoy clear)
+65,600.14,WEST,5,0,RED,NORTH,Emergency hold (letting the convoy clear)
+66,600.18,NORTH,9,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+66,600.18,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+66,600.18,EAST,7,0,RED,NORTH,Emergency hold (letting the convoy clear)
+66,600.18,WEST,6,0,RED,NORTH,Emergency hold (letting the convoy clear)
+67,600.48,NORTH,9,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+67,600.48,SOUTH,10,0,RED,NORTH,Emergency hold (letting the convoy clear)
+67,600.48,EAST,7,0,RED,NORTH,Emergency hold (letting the convoy clear)
+67,600.48,WEST,6,0,RED,NORTH,Emergency hold (letting the convoy clear)
+68,600.52,NORTH,8,0,GREEN,NORTH,Emergency hold (letting the convoy clear)
+68,600.52,SOUTH,11,0,RED,NORTH,Emergency hold (letting the convoy clear)
+68,600.52,EAST,7,0,RED,NORTH,Emergency hold (letting the convoy clear)
+68,600.52,WEST,6,0,RED,NORTH,Emergency hold (letting the convoy clear)
+69,600.84,NORTH,8,0,RED,EAST,EMERGENCY vehicle on EAST
+69,600.84,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+69,600.84,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+69,600.84,WEST,6,0,RED,EAST,EMERGENCY vehicle on EAST
+70,600.89,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+70,600.89,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+70,600.89,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+70,600.89,WEST,6,0,RED,EAST,EMERGENCY vehicle on EAST
+71,601.19,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+71,601.19,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+71,601.19,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+71,601.19,WEST,6,0,RED,EAST,EMERGENCY vehicle on EAST
+72,601.23,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+72,601.23,SOUTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+72,601.23,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+72,601.23,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+73,601.56,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+73,601.56,SOUTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+73,601.56,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+73,601.56,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+74,601.61,NORTH,8,0,RED,EAST,EMERGENCY vehicle on EAST
+74,601.61,SOUTH,8,0,RED,EAST,EMERGENCY vehicle on EAST
+74,601.61,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+74,601.61,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+75,601.87,NORTH,8,0,RED,EAST,EMERGENCY vehicle on EAST
+75,601.87,SOUTH,8,0,RED,EAST,EMERGENCY vehicle on EAST
+75,601.87,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+75,601.87,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+76,601.91,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+76,601.91,SOUTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+76,601.91,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+76,601.91,WEST,8,0,RED,EAST,EMERGENCY vehicle on EAST
+77,602.16,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+77,602.16,SOUTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+77,602.16,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+77,602.16,WEST,8,0,RED,EAST,EMERGENCY vehicle on EAST
+78,602.20,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+78,602.20,SOUTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+78,602.20,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+78,602.20,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+79,602.44,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+79,602.44,SOUTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+79,602.44,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+79,602.44,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+80,602.48,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+80,602.48,SOUTH,13,0,RED,EAST,EMERGENCY vehicle on EAST
+80,602.48,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+80,602.48,WEST,8,0,RED,EAST,EMERGENCY vehicle on EAST
+81,602.70,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+81,602.70,SOUTH,13,0,RED,EAST,EMERGENCY vehicle on EAST
+81,602.70,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+81,602.70,WEST,8,0,RED,EAST,EMERGENCY vehicle on EAST
+82,602.74,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+82,602.74,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+82,602.74,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+82,602.74,WEST,9,0,RED,EAST,EMERGENCY vehicle on EAST
+83,603.02,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+83,603.02,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+83,603.02,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+83,603.02,WEST,9,0,RED,EAST,EMERGENCY vehicle on EAST
+84,603.05,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+84,603.05,SOUTH,8,0,RED,EAST,EMERGENCY vehicle on EAST
+84,603.05,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+84,603.05,WEST,9,0,RED,EAST,EMERGENCY vehicle on EAST
+85,603.29,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+85,603.29,SOUTH,8,0,RED,EAST,EMERGENCY vehicle on EAST
+85,603.29,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+85,603.29,WEST,9,0,RED,EAST,EMERGENCY vehicle on EAST
+86,603.32,NORTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+86,603.32,SOUTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+86,603.32,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+86,603.32,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+87,603.61,NORTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+87,603.61,SOUTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+87,603.61,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+87,603.61,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+88,603.64,NORTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+88,603.64,SOUTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+88,603.64,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+88,603.64,WEST,10,0,RED,EAST,EMERGENCY vehicle on EAST
+89,603.88,NORTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+89,603.88,SOUTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+89,603.88,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+89,603.88,WEST,10,0,RED,EAST,EMERGENCY vehicle on EAST
+90,603.92,NORTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+90,603.92,SOUTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+90,603.92,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+90,603.92,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+91,604.15,NORTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+91,604.15,SOUTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+91,604.15,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+91,604.15,WEST,7,0,RED,EAST,EMERGENCY vehicle on EAST
+92,604.18,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+92,604.18,SOUTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+92,604.18,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+92,604.18,WEST,10,0,RED,EAST,EMERGENCY vehicle on EAST
+93,604.42,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+93,604.42,SOUTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+93,604.42,EAST,7,1,GREEN,EAST,EMERGENCY vehicle on EAST
+93,604.42,WEST,10,0,RED,EAST,EMERGENCY vehicle on EAST
+94,604.45,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+94,604.45,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+94,604.45,EAST,4,1,GREEN,EAST,EMERGENCY vehicle on EAST
+94,604.45,WEST,8,0,RED,EAST,EMERGENCY vehicle on EAST
+95,604.70,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+95,604.70,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+95,604.70,EAST,4,1,GREEN,EAST,EMERGENCY vehicle on EAST
+95,604.70,WEST,8,0,RED,EAST,EMERGENCY vehicle on EAST
+96,604.73,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+96,604.73,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+96,604.73,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+96,604.73,WEST,12,0,RED,EAST,EMERGENCY vehicle on EAST
+97,604.99,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+97,604.99,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+97,604.99,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+97,604.99,WEST,12,0,RED,EAST,EMERGENCY vehicle on EAST
+98,605.02,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+98,605.02,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+98,605.02,EAST,3,1,GREEN,EAST,EMERGENCY vehicle on EAST
+98,605.02,WEST,10,0,RED,EAST,EMERGENCY vehicle on EAST
+99,605.26,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+99,605.26,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+99,605.26,EAST,3,1,GREEN,EAST,EMERGENCY vehicle on EAST
+99,605.26,WEST,10,0,RED,EAST,EMERGENCY vehicle on EAST
+100,605.29,NORTH,7,0,RED,EAST,EMERGENCY vehicle on EAST
+100,605.29,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+100,605.29,EAST,2,1,GREEN,EAST,EMERGENCY vehicle on EAST
+100,605.29,WEST,9,0,RED,EAST,EMERGENCY vehicle on EAST
+101,605.60,NORTH,7,0,RED,EAST,EMERGENCY vehicle on EAST
+101,605.60,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+101,605.60,EAST,2,1,GREEN,EAST,EMERGENCY vehicle on EAST
+101,605.60,WEST,9,0,RED,EAST,EMERGENCY vehicle on EAST
+102,605.64,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+102,605.64,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+102,605.64,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+102,605.64,WEST,13,0,RED,EAST,EMERGENCY vehicle on EAST
+103,605.94,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+103,605.94,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+103,605.94,EAST,6,1,GREEN,EAST,EMERGENCY vehicle on EAST
+103,605.94,WEST,13,0,RED,EAST,EMERGENCY vehicle on EAST
+104,605.97,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+104,605.97,SOUTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+104,605.97,EAST,2,1,GREEN,EAST,EMERGENCY vehicle on EAST
+104,605.97,WEST,14,0,RED,EAST,EMERGENCY vehicle on EAST
+105,606.26,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+105,606.26,SOUTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+105,606.26,EAST,2,1,GREEN,EAST,EMERGENCY vehicle on EAST
+105,606.26,WEST,14,0,RED,EAST,EMERGENCY vehicle on EAST
+106,606.29,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+106,606.29,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+106,606.29,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+106,606.29,WEST,10,0,RED,EAST,EMERGENCY vehicle on EAST
+107,606.58,NORTH,10,0,RED,EAST,EMERGENCY vehicle on EAST
+107,606.58,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+107,606.58,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+107,606.58,WEST,10,0,RED,EAST,EMERGENCY vehicle on EAST
+108,606.62,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+108,606.62,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+108,606.62,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+108,606.62,WEST,11,0,RED,EAST,EMERGENCY vehicle on EAST
+109,606.92,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+109,606.92,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+109,606.92,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+109,606.92,WEST,11,0,RED,EAST,EMERGENCY vehicle on EAST
+110,606.96,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+110,606.96,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+110,606.96,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+110,606.96,WEST,12,0,RED,EAST,EMERGENCY vehicle on EAST
+111,607.27,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+111,607.27,SOUTH,11,0,RED,EAST,EMERGENCY vehicle on EAST
+111,607.27,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+111,607.27,WEST,12,0,RED,EAST,EMERGENCY vehicle on EAST
+112,607.31,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+112,607.31,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+112,607.31,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+112,607.31,WEST,11,0,RED,EAST,EMERGENCY vehicle on EAST
+113,607.62,NORTH,9,0,RED,EAST,EMERGENCY vehicle on EAST
+113,607.62,SOUTH,12,0,RED,EAST,EMERGENCY vehicle on EAST
+113,607.62,EAST,5,1,GREEN,EAST,EMERGENCY vehicle on EAST
+113,607.62,WEST,11,0,RED,EAST,EMERGENCY vehicle on EAST
+114,607.66,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+114,607.66,SOUTH,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+114,607.66,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+114,607.66,WEST,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+115,607.97,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+115,607.97,SOUTH,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+115,607.97,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+115,607.97,WEST,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+116,608.00,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+116,608.00,SOUTH,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+116,608.00,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+116,608.00,WEST,14,0,RED,EAST,Emergency hold (letting the convoy clear)
+117,608.32,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+117,608.32,SOUTH,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+117,608.32,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+117,608.32,WEST,14,0,RED,EAST,Emergency hold (letting the convoy clear)
+118,608.35,NORTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+118,608.35,SOUTH,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+118,608.35,EAST,6,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+118,608.35,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+119,608.69,NORTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+119,608.69,SOUTH,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+119,608.69,EAST,6,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+119,608.69,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+120,608.75,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+120,608.75,SOUTH,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+120,608.75,EAST,6,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+120,608.75,WEST,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+121,609.02,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+121,609.02,SOUTH,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+121,609.02,EAST,6,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+121,609.02,WEST,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+122,609.05,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+122,609.05,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+122,609.05,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+122,609.05,WEST,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+123,609.36,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+123,609.36,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+123,609.36,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+123,609.36,WEST,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+124,609.40,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+124,609.40,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+124,609.40,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+124,609.40,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+125,609.66,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+125,609.66,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+125,609.66,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+125,609.66,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+126,609.69,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+126,609.69,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+126,609.69,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+126,609.69,WEST,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+127,609.97,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+127,609.97,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+127,609.97,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+127,609.97,WEST,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+128,610.01,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+128,610.01,SOUTH,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+128,610.01,EAST,10,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+128,610.01,WEST,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+129,610.32,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+129,610.32,SOUTH,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+129,610.32,EAST,10,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+129,610.32,WEST,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+130,610.36,NORTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+130,610.36,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+130,610.36,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+130,610.36,WEST,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+131,610.67,NORTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+131,610.67,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+131,610.67,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+131,610.67,WEST,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+132,610.70,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+132,610.70,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+132,610.70,EAST,10,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+132,610.70,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+133,611.02,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+133,611.02,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+133,611.02,EAST,10,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+133,611.02,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+134,611.05,NORTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+134,611.05,SOUTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+134,611.05,EAST,11,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+134,611.05,WEST,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+135,611.30,NORTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+135,611.30,SOUTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+135,611.30,EAST,11,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+135,611.30,WEST,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+136,611.33,NORTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+136,611.33,SOUTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+136,611.33,EAST,13,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+136,611.33,WEST,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+137,611.58,NORTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+137,611.58,SOUTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+137,611.58,EAST,13,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+137,611.58,WEST,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+138,611.61,NORTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+138,611.61,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+138,611.61,EAST,10,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+138,611.61,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+139,611.85,NORTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+139,611.85,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+139,611.85,EAST,10,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+139,611.85,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+140,611.88,NORTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+140,611.88,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+140,611.88,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+140,611.88,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+141,612.13,NORTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+141,612.13,SOUTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+141,612.13,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+141,612.13,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+142,612.16,NORTH,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+142,612.16,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+142,612.16,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+142,612.16,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+143,612.40,NORTH,11,0,RED,EAST,Emergency hold (letting the convoy clear)
+143,612.40,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+143,612.40,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+143,612.40,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+144,612.43,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+144,612.43,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+144,612.43,EAST,9,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+144,612.43,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+145,612.67,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+145,612.67,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+145,612.67,EAST,9,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+145,612.67,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+146,612.70,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+146,612.70,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+146,612.70,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+146,612.70,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+147,612.96,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+147,612.96,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+147,612.96,EAST,7,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+147,612.96,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+148,612.99,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+148,612.99,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+148,612.99,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+148,612.99,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+149,613.30,NORTH,9,0,RED,EAST,Emergency hold (letting the convoy clear)
+149,613.30,SOUTH,8,0,RED,EAST,Emergency hold (letting the convoy clear)
+149,613.30,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+149,613.30,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+150,613.33,NORTH,10,0,RED,EAST,Emergency hold (letting the convoy clear)
+150,613.33,SOUTH,7,0,RED,EAST,Emergency hold (letting the convoy clear)
+150,613.33,EAST,8,0,GREEN,EAST,Emergency hold (letting the convoy clear)
+150,613.33,WEST,12,0,RED,EAST,Emergency hold (letting the convoy clear)
+151,613.66,NORTH,10,0,RED,WEST,Busiest lane (12 vehicles)
+151,613.66,SOUTH,7,0,RED,WEST,Busiest lane (12 vehicles)
+151,613.66,EAST,8,0,RED,WEST,Busiest lane (12 vehicles)
+151,613.66,WEST,12,0,GREEN,WEST,Busiest lane (12 vehicles)
+152,613.69,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+152,613.69,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+152,613.69,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+152,613.69,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+153,614.01,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+153,614.01,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+153,614.01,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+153,614.01,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+154,614.05,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+154,614.05,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+154,614.05,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+154,614.05,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+155,614.38,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+155,614.38,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+155,614.38,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+155,614.38,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+156,614.43,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+156,614.43,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+156,614.43,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+156,614.43,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+157,614.73,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+157,614.73,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+157,614.73,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+157,614.73,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+158,614.76,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+158,614.76,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+158,614.76,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+158,614.76,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+159,615.07,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+159,615.07,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+159,615.07,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+159,615.07,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+160,615.10,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+160,615.10,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+160,615.10,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+160,615.10,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+161,615.41,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+161,615.41,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+161,615.41,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+161,615.41,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+162,615.44,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+162,615.44,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+162,615.44,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+162,615.44,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+163,615.74,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+163,615.74,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+163,615.74,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+163,615.74,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+164,615.77,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+164,615.77,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+164,615.77,EAST,10,0,RED,WEST,Minimum green (4s) not over yet
+164,615.77,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+165,616.06,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+165,616.06,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+165,616.06,EAST,10,0,RED,WEST,Minimum green (4s) not over yet
+165,616.06,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+166,616.09,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+166,616.09,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+166,616.09,EAST,10,0,RED,WEST,Minimum green (4s) not over yet
+166,616.09,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+167,616.39,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+167,616.39,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+167,616.39,EAST,10,0,RED,WEST,Minimum green (4s) not over yet
+167,616.39,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+168,616.43,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+168,616.43,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+168,616.43,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+168,616.43,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+169,616.75,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+169,616.75,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+169,616.75,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+169,616.75,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+170,616.78,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+170,616.78,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+170,616.78,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+170,616.78,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+171,617.06,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+171,617.06,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+171,617.06,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+171,617.06,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+172,617.10,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+172,617.10,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+172,617.10,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+172,617.10,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+173,617.38,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+173,617.38,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+173,617.38,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+173,617.38,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+174,617.42,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+174,617.42,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+174,617.42,EAST,10,0,RED,WEST,Minimum green (4s) not over yet
+174,617.42,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+175,617.70,NORTH,11,0,RED,WEST,Still busiest (13 vehicles)
+175,617.70,SOUTH,8,0,RED,WEST,Still busiest (13 vehicles)
+175,617.70,EAST,10,0,RED,WEST,Still busiest (13 vehicles)
+175,617.70,WEST,13,0,GREEN,WEST,Still busiest (13 vehicles)
+176,617.74,NORTH,13,0,RED,WEST,Still busiest (13 vehicles)
+176,617.74,SOUTH,6,0,RED,WEST,Still busiest (13 vehicles)
+176,617.74,EAST,8,0,RED,WEST,Still busiest (13 vehicles)
+176,617.74,WEST,13,0,GREEN,WEST,Still busiest (13 vehicles)
+177,618.03,NORTH,13,0,RED,WEST,Still busiest (13 vehicles)
+177,618.03,SOUTH,6,0,RED,WEST,Still busiest (13 vehicles)
+177,618.03,EAST,8,0,RED,WEST,Still busiest (13 vehicles)
+177,618.03,WEST,13,0,GREEN,WEST,Still busiest (13 vehicles)
+178,618.06,NORTH,11,0,GREEN,NORTH,Busiest lane (11 vehicles)
+178,618.06,SOUTH,5,0,RED,NORTH,Busiest lane (11 vehicles)
+178,618.06,EAST,10,0,RED,NORTH,Busiest lane (11 vehicles)
+178,618.06,WEST,9,0,RED,NORTH,Busiest lane (11 vehicles)
+179,618.33,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+179,618.33,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+179,618.33,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+179,618.33,WEST,9,0,RED,NORTH,Minimum green (4s) not over yet
+180,618.36,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+180,618.36,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+180,618.36,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+180,618.36,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+181,618.65,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+181,618.65,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+181,618.65,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+181,618.65,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+182,618.68,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+182,618.68,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+182,618.68,EAST,9,0,RED,NORTH,Minimum green (4s) not over yet
+182,618.68,WEST,14,0,RED,NORTH,Minimum green (4s) not over yet
+183,618.99,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+183,618.99,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+183,618.99,EAST,9,0,RED,NORTH,Minimum green (4s) not over yet
+183,618.99,WEST,14,0,RED,NORTH,Minimum green (4s) not over yet
+184,619.02,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+184,619.02,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+184,619.02,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+184,619.02,WEST,9,0,RED,NORTH,Minimum green (4s) not over yet
+185,619.27,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+185,619.27,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+185,619.27,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+185,619.27,WEST,9,0,RED,NORTH,Minimum green (4s) not over yet
+186,619.30,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+186,619.30,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+186,619.30,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+186,619.30,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+187,619.60,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+187,619.60,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+187,619.60,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+187,619.60,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+188,619.64,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+188,619.64,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+188,619.64,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+188,619.64,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+189,619.94,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+189,619.94,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+189,619.94,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+189,619.94,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+190,619.98,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+190,619.98,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+190,619.98,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+190,619.98,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+191,620.48,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+191,620.48,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+191,620.48,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+191,620.48,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+192,620.53,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+192,620.53,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+192,620.53,EAST,12,0,RED,NORTH,Minimum green (4s) not over yet
+192,620.53,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+193,620.84,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+193,620.84,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+193,620.84,EAST,12,0,RED,NORTH,Minimum green (4s) not over yet
+193,620.84,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+194,620.91,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+194,620.91,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+194,620.91,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+194,620.91,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+195,621.20,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+195,621.20,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+195,621.20,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+195,621.20,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+196,621.27,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+196,621.27,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+196,621.27,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+196,621.27,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+197,621.60,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+197,621.60,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+197,621.60,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+197,621.60,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+198,621.65,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+198,621.65,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+198,621.65,EAST,8,0,RED,NORTH,Minimum green (4s) not over yet
+198,621.65,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+199,621.97,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+199,621.97,SOUTH,5,0,RED,NORTH,Minimum green (4s) not over yet
+199,621.97,EAST,8,0,RED,NORTH,Minimum green (4s) not over yet
+199,621.97,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+200,622.02,NORTH,13,0,GREEN,NORTH,Minimum green (4s) not over yet
+200,622.02,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+200,622.02,EAST,12,0,RED,NORTH,Minimum green (4s) not over yet
+200,622.02,WEST,12,0,RED,NORTH,Minimum green (4s) not over yet
+201,622.33,NORTH,13,0,GREEN,NORTH,Still busiest (13 vehicles)
+201,622.33,SOUTH,6,0,RED,NORTH,Still busiest (13 vehicles)
+201,622.33,EAST,12,0,RED,NORTH,Still busiest (13 vehicles)
+201,622.33,WEST,12,0,RED,NORTH,Still busiest (13 vehicles)
+202,622.38,NORTH,11,0,GREEN,NORTH,Still busiest (11 vehicles)
+202,622.38,SOUTH,6,0,RED,NORTH,Still busiest (11 vehicles)
+202,622.38,EAST,10,0,RED,NORTH,Still busiest (11 vehicles)
+202,622.38,WEST,10,0,RED,NORTH,Still busiest (11 vehicles)
+203,622.68,NORTH,11,0,GREEN,NORTH,Still busiest (11 vehicles)
+203,622.68,SOUTH,6,0,RED,NORTH,Still busiest (11 vehicles)
+203,622.68,EAST,10,0,RED,NORTH,Still busiest (11 vehicles)
+203,622.68,WEST,10,0,RED,NORTH,Still busiest (11 vehicles)
+204,622.71,NORTH,10,0,GREEN,NORTH,Holding green (lead too small: 10 vs 11)
+204,622.71,SOUTH,6,0,RED,NORTH,Holding green (lead too small: 10 vs 11)
+204,622.71,EAST,11,0,RED,NORTH,Holding green (lead too small: 10 vs 11)
+204,622.71,WEST,10,0,RED,NORTH,Holding green (lead too small: 10 vs 11)
+205,623.02,NORTH,10,0,GREEN,NORTH,Holding green (lead too small: 10 vs 11)
+205,623.02,SOUTH,6,0,RED,NORTH,Holding green (lead too small: 10 vs 11)
+205,623.02,EAST,11,0,RED,NORTH,Holding green (lead too small: 10 vs 11)
+205,623.02,WEST,10,0,RED,NORTH,Holding green (lead too small: 10 vs 11)
+206,623.05,NORTH,11,0,GREEN,NORTH,Still busiest (11 vehicles)
+206,623.05,SOUTH,5,0,RED,NORTH,Still busiest (11 vehicles)
+206,623.05,EAST,11,0,RED,NORTH,Still busiest (11 vehicles)
+206,623.05,WEST,11,0,RED,NORTH,Still busiest (11 vehicles)
+207,623.38,NORTH,11,0,GREEN,NORTH,Still busiest (11 vehicles)
+207,623.38,SOUTH,5,0,RED,NORTH,Still busiest (11 vehicles)
+207,623.38,EAST,11,0,RED,NORTH,Still busiest (11 vehicles)
+207,623.38,WEST,11,0,RED,NORTH,Still busiest (11 vehicles)
+208,623.41,NORTH,10,0,RED,EAST,Busiest lane (12 vehicles)
+208,623.41,SOUTH,5,0,RED,EAST,Busiest lane (12 vehicles)
+208,623.41,EAST,12,0,GREEN,EAST,Busiest lane (12 vehicles)
+208,623.41,WEST,9,0,RED,EAST,Busiest lane (12 vehicles)
+209,623.71,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+209,623.71,SOUTH,5,0,RED,EAST,Minimum green (4s) not over yet
+209,623.71,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+209,623.71,WEST,9,0,RED,EAST,Minimum green (4s) not over yet
+210,623.74,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+210,623.74,SOUTH,6,0,RED,EAST,Minimum green (4s) not over yet
+210,623.74,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+210,623.74,WEST,7,0,RED,EAST,Minimum green (4s) not over yet
+211,624.04,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+211,624.04,SOUTH,6,0,RED,EAST,Minimum green (4s) not over yet
+211,624.04,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+211,624.04,WEST,7,0,RED,EAST,Minimum green (4s) not over yet
+212,624.08,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+212,624.08,SOUTH,5,0,RED,EAST,Minimum green (4s) not over yet
+212,624.08,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+212,624.08,WEST,7,0,RED,EAST,Minimum green (4s) not over yet
+213,624.37,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+213,624.37,SOUTH,5,0,RED,EAST,Minimum green (4s) not over yet
+213,624.37,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+213,624.37,WEST,7,0,RED,EAST,Minimum green (4s) not over yet
+214,624.41,NORTH,12,0,RED,EAST,Minimum green (4s) not over yet
+214,624.41,SOUTH,5,0,RED,EAST,Minimum green (4s) not over yet
+214,624.41,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+214,624.41,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+215,624.72,NORTH,12,0,RED,EAST,Minimum green (4s) not over yet
+215,624.72,SOUTH,5,0,RED,EAST,Minimum green (4s) not over yet
+215,624.72,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+215,624.72,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+216,624.77,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+216,624.77,SOUTH,6,0,RED,EAST,Minimum green (4s) not over yet
+216,624.77,EAST,10,0,GREEN,EAST,Minimum green (4s) not over yet
+216,624.77,WEST,8,0,RED,EAST,Minimum green (4s) not over yet
+217,625.09,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+217,625.09,SOUTH,6,0,RED,EAST,Minimum green (4s) not over yet
+217,625.09,EAST,10,0,GREEN,EAST,Minimum green (4s) not over yet
+217,625.09,WEST,8,0,RED,EAST,Minimum green (4s) not over yet
+218,625.14,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+218,625.14,SOUTH,6,0,RED,EAST,Minimum green (4s) not over yet
+218,625.14,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+218,625.14,WEST,7,0,RED,EAST,Minimum green (4s) not over yet
+219,625.45,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+219,625.45,SOUTH,6,0,RED,EAST,Minimum green (4s) not over yet
+219,625.45,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+219,625.45,WEST,7,0,RED,EAST,Minimum green (4s) not over yet
+220,625.49,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+220,625.49,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+220,625.49,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+220,625.49,WEST,8,0,RED,EAST,Minimum green (4s) not over yet
+221,625.82,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+221,625.82,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+221,625.82,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+221,625.82,WEST,8,0,RED,EAST,Minimum green (4s) not over yet
+222,625.86,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+222,625.86,SOUTH,7,0,RED,EAST,Minimum green (4s) not over yet
+222,625.86,EAST,13,0,GREEN,EAST,Minimum green (4s) not over yet
+222,625.86,WEST,7,0,RED,EAST,Minimum green (4s) not over yet
+223,626.16,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+223,626.16,SOUTH,7,0,RED,EAST,Minimum green (4s) not over yet
+223,626.16,EAST,13,0,GREEN,EAST,Minimum green (4s) not over yet
+223,626.16,WEST,7,0,RED,EAST,Minimum green (4s) not over yet
+224,626.20,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+224,626.20,SOUTH,7,0,RED,EAST,Minimum green (4s) not over yet
+224,626.20,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+224,626.20,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+225,626.49,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+225,626.49,SOUTH,7,0,RED,EAST,Minimum green (4s) not over yet
+225,626.49,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+225,626.49,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+226,626.52,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+226,626.52,SOUTH,7,0,RED,EAST,Minimum green (4s) not over yet
+226,626.52,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+226,626.52,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+227,626.82,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+227,626.82,SOUTH,7,0,RED,EAST,Minimum green (4s) not over yet
+227,626.82,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+227,626.82,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+228,626.85,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+228,626.85,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+228,626.85,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+228,626.85,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+229,627.11,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+229,627.11,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+229,627.11,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+229,627.11,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+230,627.15,NORTH,11,0,RED,EAST,Minimum green (4s) not over yet
+230,627.15,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+230,627.15,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+230,627.15,WEST,6,0,RED,EAST,Minimum green (4s) not over yet
+231,627.42,NORTH,11,0,RED,EAST,Still busiest (12 vehicles)
+231,627.42,SOUTH,8,0,RED,EAST,Still busiest (12 vehicles)
+231,627.42,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+231,627.42,WEST,6,0,RED,EAST,Still busiest (12 vehicles)
+232,627.45,NORTH,11,0,RED,EAST,Still busiest (11 vehicles)
+232,627.45,SOUTH,6,0,RED,EAST,Still busiest (11 vehicles)
+232,627.45,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+232,627.45,WEST,7,0,RED,EAST,Still busiest (11 vehicles)
+233,627.76,NORTH,11,0,RED,EAST,Still busiest (11 vehicles)
+233,627.76,SOUTH,6,0,RED,EAST,Still busiest (11 vehicles)
+233,627.76,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+233,627.76,WEST,7,0,RED,EAST,Still busiest (11 vehicles)
+234,627.80,NORTH,11,0,RED,EAST,Still busiest (11 vehicles)
+234,627.80,SOUTH,6,0,RED,EAST,Still busiest (11 vehicles)
+234,627.80,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+234,627.80,WEST,4,0,RED,EAST,Still busiest (11 vehicles)
+235,628.12,NORTH,11,0,RED,EAST,Still busiest (11 vehicles)
+235,628.12,SOUTH,6,0,RED,EAST,Still busiest (11 vehicles)
+235,628.12,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+235,628.12,WEST,4,0,RED,EAST,Still busiest (11 vehicles)
+236,628.15,NORTH,11,0,RED,EAST,Still busiest (12 vehicles)
+236,628.15,SOUTH,5,0,RED,EAST,Still busiest (12 vehicles)
+236,628.15,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+236,628.15,WEST,5,0,RED,EAST,Still busiest (12 vehicles)
+237,628.45,NORTH,11,0,RED,EAST,Still busiest (12 vehicles)
+237,628.45,SOUTH,5,0,RED,EAST,Still busiest (12 vehicles)
+237,628.45,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+237,628.45,WEST,5,0,RED,EAST,Still busiest (12 vehicles)
+238,628.48,NORTH,12,0,RED,EAST,Holding green (lead too small: 11 vs 12)
+238,628.48,SOUTH,5,0,RED,EAST,Holding green (lead too small: 11 vs 12)
+238,628.48,EAST,11,0,GREEN,EAST,Holding green (lead too small: 11 vs 12)
+238,628.48,WEST,5,0,RED,EAST,Holding green (lead too small: 11 vs 12)
+239,628.76,NORTH,12,0,RED,EAST,Holding green (lead too small: 11 vs 12)
+239,628.76,SOUTH,5,0,RED,EAST,Holding green (lead too small: 11 vs 12)
+239,628.76,EAST,11,0,GREEN,EAST,Holding green (lead too small: 11 vs 12)
+239,628.76,WEST,5,0,RED,EAST,Holding green (lead too small: 11 vs 12)
+240,628.80,NORTH,12,0,RED,EAST,Still busiest (12 vehicles)
+240,628.80,SOUTH,5,0,RED,EAST,Still busiest (12 vehicles)
+240,628.80,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+240,628.80,WEST,6,0,RED,EAST,Still busiest (12 vehicles)
+241,629.06,NORTH,12,0,RED,EAST,Still busiest (12 vehicles)
+241,629.06,SOUTH,5,0,RED,EAST,Still busiest (12 vehicles)
+241,629.06,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+241,629.06,WEST,6,0,RED,EAST,Still busiest (12 vehicles)
+242,629.10,NORTH,11,0,RED,EAST,Still busiest (12 vehicles)
+242,629.10,SOUTH,5,0,RED,EAST,Still busiest (12 vehicles)
+242,629.10,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+242,629.10,WEST,9,0,RED,EAST,Still busiest (12 vehicles)
+243,629.35,NORTH,11,0,RED,EAST,Still busiest (12 vehicles)
+243,629.35,SOUTH,5,0,RED,EAST,Still busiest (12 vehicles)
+243,629.35,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+243,629.35,WEST,9,0,RED,EAST,Still busiest (12 vehicles)
+244,629.38,NORTH,13,0,GREEN,NORTH,Busiest lane (13 vehicles)
+244,629.38,SOUTH,7,0,RED,NORTH,Busiest lane (13 vehicles)
+244,629.38,EAST,11,0,RED,NORTH,Busiest lane (13 vehicles)
+244,629.38,WEST,11,0,RED,NORTH,Busiest lane (13 vehicles)
+245,629.64,NORTH,13,0,GREEN,NORTH,Minimum green (4s) not over yet
+245,629.64,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+245,629.64,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+245,629.64,WEST,11,0,RED,NORTH,Minimum green (4s) not over yet
+246,629.67,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+246,629.67,SOUTH,4,0,RED,NORTH,Minimum green (4s) not over yet
+246,629.67,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+246,629.67,WEST,10,0,RED,NORTH,Minimum green (4s) not over yet
+247,630.07,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+247,630.07,SOUTH,4,0,RED,NORTH,Minimum green (4s) not over yet
+247,630.07,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+247,630.07,WEST,10,0,RED,NORTH,Minimum green (4s) not over yet
+248,630.11,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+248,630.11,SOUTH,4,0,RED,NORTH,Minimum green (4s) not over yet
+248,630.11,EAST,13,0,RED,NORTH,Minimum green (4s) not over yet
+248,630.11,WEST,10,0,RED,NORTH,Minimum green (4s) not over yet
+249,630.38,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+249,630.38,SOUTH,4,0,RED,NORTH,Minimum green (4s) not over yet
+249,630.38,EAST,13,0,RED,NORTH,Minimum green (4s) not over yet
+249,630.38,WEST,10,0,RED,NORTH,Minimum green (4s) not over yet
+250,630.42,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+250,630.42,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+250,630.42,EAST,12,0,RED,NORTH,Minimum green (4s) not over yet
+250,630.42,WEST,9,0,RED,NORTH,Minimum green (4s) not over yet
+251,630.71,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+251,630.71,SOUTH,6,0,RED,NORTH,Minimum green (4s) not over yet
+251,630.71,EAST,12,0,RED,NORTH,Minimum green (4s) not over yet
+251,630.71,WEST,9,0,RED,NORTH,Minimum green (4s) not over yet
+252,630.74,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+252,630.74,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+252,630.74,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+252,630.74,WEST,6,0,RED,NORTH,Minimum green (4s) not over yet
+253,631.05,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+253,631.05,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+253,631.05,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+253,631.05,WEST,6,0,RED,NORTH,Minimum green (4s) not over yet
+254,631.10,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+254,631.10,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+254,631.10,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+254,631.10,WEST,5,0,RED,NORTH,Minimum green (4s) not over yet
+255,631.43,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+255,631.43,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+255,631.43,EAST,11,0,RED,NORTH,Minimum green (4s) not over yet
+255,631.43,WEST,5,0,RED,NORTH,Minimum green (4s) not over yet
+256,631.48,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+256,631.48,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+256,631.48,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+256,631.48,WEST,6,0,RED,NORTH,Minimum green (4s) not over yet
+257,631.77,NORTH,11,0,GREEN,NORTH,Minimum green (4s) not over yet
+257,631.77,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+257,631.77,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+257,631.77,WEST,6,0,RED,NORTH,Minimum green (4s) not over yet
+258,631.82,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+258,631.82,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+258,631.82,EAST,12,0,RED,NORTH,Minimum green (4s) not over yet
+258,631.82,WEST,6,0,RED,NORTH,Minimum green (4s) not over yet
+259,632.10,NORTH,12,0,GREEN,NORTH,Minimum green (4s) not over yet
+259,632.10,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+259,632.10,EAST,12,0,RED,NORTH,Minimum green (4s) not over yet
+259,632.10,WEST,6,0,RED,NORTH,Minimum green (4s) not over yet
+260,632.15,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+260,632.15,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+260,632.15,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+260,632.15,WEST,6,0,RED,NORTH,Minimum green (4s) not over yet
+261,632.46,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+261,632.46,SOUTH,7,0,RED,NORTH,Minimum green (4s) not over yet
+261,632.46,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+261,632.46,WEST,6,0,RED,NORTH,Minimum green (4s) not over yet
+262,632.50,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+262,632.50,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+262,632.50,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+262,632.50,WEST,7,0,RED,NORTH,Minimum green (4s) not over yet
+263,632.78,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+263,632.78,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+263,632.78,EAST,10,0,RED,NORTH,Minimum green (4s) not over yet
+263,632.78,WEST,7,0,RED,NORTH,Minimum green (4s) not over yet
+264,632.82,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+264,632.82,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+264,632.82,EAST,9,0,RED,NORTH,Minimum green (4s) not over yet
+264,632.82,WEST,7,0,RED,NORTH,Minimum green (4s) not over yet
+265,633.13,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+265,633.13,SOUTH,8,0,RED,NORTH,Minimum green (4s) not over yet
+265,633.13,EAST,9,0,RED,NORTH,Minimum green (4s) not over yet
+265,633.13,WEST,7,0,RED,NORTH,Minimum green (4s) not over yet
+266,633.17,NORTH,10,0,GREEN,NORTH,Minimum green (4s) not over yet
+266,633.17,SOUTH,9,0,RED,NORTH,Minimum green (4s) not over yet
+266,633.17,EAST,6,0,RED,NORTH,Minimum green (4s) not over yet
+266,633.17,WEST,8,0,RED,NORTH,Minimum green (4s) not over yet
+267,633.42,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+267,633.42,SOUTH,9,0,RED,NORTH,Still busiest (10 vehicles)
+267,633.42,EAST,6,0,RED,NORTH,Still busiest (10 vehicles)
+267,633.42,WEST,8,0,RED,NORTH,Still busiest (10 vehicles)
+268,633.46,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+268,633.46,SOUTH,8,0,RED,NORTH,Still busiest (10 vehicles)
+268,633.46,EAST,7,0,RED,NORTH,Still busiest (10 vehicles)
+268,633.46,WEST,7,0,RED,NORTH,Still busiest (10 vehicles)
+269,633.76,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+269,633.76,SOUTH,8,0,RED,NORTH,Still busiest (10 vehicles)
+269,633.76,EAST,7,0,RED,NORTH,Still busiest (10 vehicles)
+269,633.76,WEST,7,0,RED,NORTH,Still busiest (10 vehicles)
+270,633.79,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+270,633.79,SOUTH,6,0,RED,NORTH,Still busiest (10 vehicles)
+270,633.79,EAST,6,0,RED,NORTH,Still busiest (10 vehicles)
+270,633.79,WEST,8,0,RED,NORTH,Still busiest (10 vehicles)
+271,634.03,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+271,634.03,SOUTH,6,0,RED,NORTH,Still busiest (10 vehicles)
+271,634.03,EAST,6,0,RED,NORTH,Still busiest (10 vehicles)
+271,634.03,WEST,8,0,RED,NORTH,Still busiest (10 vehicles)
+272,634.07,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+272,634.07,SOUTH,8,0,RED,NORTH,Still busiest (10 vehicles)
+272,634.07,EAST,7,0,RED,NORTH,Still busiest (10 vehicles)
+272,634.07,WEST,9,0,RED,NORTH,Still busiest (10 vehicles)
+273,634.37,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+273,634.37,SOUTH,8,0,RED,NORTH,Still busiest (10 vehicles)
+273,634.37,EAST,7,0,RED,NORTH,Still busiest (10 vehicles)
+273,634.37,WEST,9,0,RED,NORTH,Still busiest (10 vehicles)
+274,634.41,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+274,634.41,SOUTH,7,0,RED,NORTH,Still busiest (10 vehicles)
+274,634.41,EAST,8,0,RED,NORTH,Still busiest (10 vehicles)
+274,634.41,WEST,9,0,RED,NORTH,Still busiest (10 vehicles)
+275,634.72,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+275,634.72,SOUTH,7,0,RED,NORTH,Still busiest (10 vehicles)
+275,634.72,EAST,8,0,RED,NORTH,Still busiest (10 vehicles)
+275,634.72,WEST,9,0,RED,NORTH,Still busiest (10 vehicles)
+276,634.76,NORTH,9,0,GREEN,NORTH,Still busiest (9 vehicles)
+276,634.76,SOUTH,7,0,RED,NORTH,Still busiest (9 vehicles)
+276,634.76,EAST,6,0,RED,NORTH,Still busiest (9 vehicles)
+276,634.76,WEST,7,0,RED,NORTH,Still busiest (9 vehicles)
+277,635.06,NORTH,9,0,GREEN,NORTH,Still busiest (9 vehicles)
+277,635.06,SOUTH,7,0,RED,NORTH,Still busiest (9 vehicles)
+277,635.06,EAST,6,0,RED,NORTH,Still busiest (9 vehicles)
+277,635.06,WEST,7,0,RED,NORTH,Still busiest (9 vehicles)
+278,635.10,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+278,635.10,SOUTH,8,0,RED,NORTH,Still busiest (10 vehicles)
+278,635.10,EAST,6,0,RED,NORTH,Still busiest (10 vehicles)
+278,635.10,WEST,10,0,RED,NORTH,Still busiest (10 vehicles)
+279,635.40,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+279,635.40,SOUTH,8,0,RED,NORTH,Still busiest (10 vehicles)
+279,635.40,EAST,6,0,RED,NORTH,Still busiest (10 vehicles)
+279,635.40,WEST,10,0,RED,NORTH,Still busiest (10 vehicles)
+280,635.44,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+280,635.44,SOUTH,7,0,RED,NORTH,Still busiest (10 vehicles)
+280,635.44,EAST,8,0,RED,NORTH,Still busiest (10 vehicles)
+280,635.44,WEST,7,0,RED,NORTH,Still busiest (10 vehicles)
+281,635.75,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+281,635.75,SOUTH,7,0,RED,NORTH,Still busiest (10 vehicles)
+281,635.75,EAST,8,0,RED,NORTH,Still busiest (10 vehicles)
+281,635.75,WEST,7,0,RED,NORTH,Still busiest (10 vehicles)
+282,635.78,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+282,635.78,SOUTH,6,0,RED,NORTH,Still busiest (10 vehicles)
+282,635.78,EAST,6,0,RED,NORTH,Still busiest (10 vehicles)
+282,635.78,WEST,10,0,RED,NORTH,Still busiest (10 vehicles)
+283,636.08,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+283,636.08,SOUTH,6,0,RED,NORTH,Still busiest (10 vehicles)
+283,636.08,EAST,6,0,RED,NORTH,Still busiest (10 vehicles)
+283,636.08,WEST,10,0,RED,NORTH,Still busiest (10 vehicles)
+284,636.12,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+284,636.12,SOUTH,6,0,RED,NORTH,Still busiest (10 vehicles)
+284,636.12,EAST,5,0,RED,NORTH,Still busiest (10 vehicles)
+284,636.12,WEST,8,0,RED,NORTH,Still busiest (10 vehicles)
+285,636.42,NORTH,10,0,GREEN,NORTH,Still busiest (10 vehicles)
+285,636.42,SOUTH,6,0,RED,NORTH,Still busiest (10 vehicles)
+285,636.42,EAST,5,0,RED,NORTH,Still busiest (10 vehicles)
+285,636.42,WEST,8,0,RED,NORTH,Still busiest (10 vehicles)
+286,636.46,NORTH,10,0,RED,WEST,Busiest lane (12 vehicles)
+286,636.46,SOUTH,7,0,RED,WEST,Busiest lane (12 vehicles)
+286,636.46,EAST,6,0,RED,WEST,Busiest lane (12 vehicles)
+286,636.46,WEST,12,0,GREEN,WEST,Busiest lane (12 vehicles)
+287,636.76,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+287,636.76,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+287,636.76,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+287,636.76,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+288,636.79,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+288,636.79,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+288,636.79,EAST,5,0,RED,WEST,Minimum green (4s) not over yet
+288,636.79,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+289,637.09,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+289,637.09,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+289,637.09,EAST,5,0,RED,WEST,Minimum green (4s) not over yet
+289,637.09,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+290,637.13,NORTH,12,0,RED,WEST,Minimum green (4s) not over yet
+290,637.13,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+290,637.13,EAST,5,0,RED,WEST,Minimum green (4s) not over yet
+290,637.13,WEST,9,0,GREEN,WEST,Minimum green (4s) not over yet
+291,637.43,NORTH,12,0,RED,WEST,Minimum green (4s) not over yet
+291,637.43,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+291,637.43,EAST,5,0,RED,WEST,Minimum green (4s) not over yet
+291,637.43,WEST,9,0,GREEN,WEST,Minimum green (4s) not over yet
+292,637.46,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+292,637.46,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+292,637.46,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+292,637.46,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+293,637.78,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+293,637.78,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+293,637.78,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+293,637.78,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+294,637.82,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+294,637.82,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+294,637.82,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+294,637.82,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+295,638.13,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+295,638.13,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+295,638.13,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+295,638.13,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+296,638.16,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+296,638.16,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+296,638.16,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+296,638.16,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+297,638.46,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+297,638.46,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+297,638.46,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+297,638.46,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+298,638.50,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+298,638.50,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+298,638.50,EAST,5,0,RED,WEST,Minimum green (4s) not over yet
+298,638.50,WEST,11,0,GREEN,WEST,Minimum green (4s) not over yet
+299,638.74,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+299,638.74,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+299,638.74,EAST,5,0,RED,WEST,Minimum green (4s) not over yet
+299,638.74,WEST,11,0,GREEN,WEST,Minimum green (4s) not over yet
+300,638.78,NORTH,13,0,RED,WEST,Minimum green (4s) not over yet
+300,638.78,SOUTH,5,0,RED,WEST,Minimum green (4s) not over yet
+300,638.78,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+300,638.78,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+301,639.09,NORTH,13,0,RED,WEST,Minimum green (4s) not over yet
+301,639.09,SOUTH,5,0,RED,WEST,Minimum green (4s) not over yet
+301,639.09,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+301,639.09,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+302,639.14,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+302,639.14,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+302,639.14,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+302,639.14,WEST,11,0,GREEN,WEST,Minimum green (4s) not over yet
+303,639.51,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+303,639.51,SOUTH,6,0,RED,WEST,Minimum green (4s) not over yet
+303,639.51,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+303,639.51,WEST,11,0,GREEN,WEST,Minimum green (4s) not over yet
+304,639.55,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+304,639.55,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+304,639.55,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+304,639.55,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+305,639.88,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+305,639.88,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+305,639.88,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+305,639.88,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+306,640.09,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+306,640.09,SOUTH,11,0,RED,WEST,Minimum green (4s) not over yet
+306,640.09,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+306,640.09,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+307,640.40,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+307,640.40,SOUTH,11,0,RED,WEST,Minimum green (4s) not over yet
+307,640.40,EAST,8,0,RED,WEST,Minimum green (4s) not over yet
+307,640.40,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+308,640.44,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+308,640.44,SOUTH,11,0,RED,WEST,Minimum green (4s) not over yet
+308,640.44,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+308,640.44,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+309,640.74,NORTH,9,0,RED,WEST,Still busiest (12 vehicles)
+309,640.74,SOUTH,11,0,RED,WEST,Still busiest (12 vehicles)
+309,640.74,EAST,7,0,RED,WEST,Still busiest (12 vehicles)
+309,640.74,WEST,12,0,GREEN,WEST,Still busiest (12 vehicles)
+310,640.78,NORTH,10,0,RED,SOUTH,Busiest lane (11 vehicles)
+310,640.78,SOUTH,11,0,GREEN,SOUTH,Busiest lane (11 vehicles)
+310,640.78,EAST,5,0,RED,SOUTH,Busiest lane (11 vehicles)
+310,640.78,WEST,9,0,RED,SOUTH,Busiest lane (11 vehicles)
+311,641.09,NORTH,10,0,RED,SOUTH,Minimum green (4s) not over yet
+311,641.09,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+311,641.09,EAST,5,0,RED,SOUTH,Minimum green (4s) not over yet
+311,641.09,WEST,9,0,RED,SOUTH,Minimum green (4s) not over yet
+312,641.13,NORTH,10,0,RED,SOUTH,Minimum green (4s) not over yet
+312,641.13,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+312,641.13,EAST,6,0,RED,SOUTH,Minimum green (4s) not over yet
+312,641.13,WEST,10,0,RED,SOUTH,Minimum green (4s) not over yet
+313,641.44,NORTH,10,0,RED,SOUTH,Minimum green (4s) not over yet
+313,641.44,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+313,641.44,EAST,6,0,RED,SOUTH,Minimum green (4s) not over yet
+313,641.44,WEST,10,0,RED,SOUTH,Minimum green (4s) not over yet
+314,641.49,NORTH,11,0,RED,SOUTH,Minimum green (4s) not over yet
+314,641.49,SOUTH,10,0,GREEN,SOUTH,Minimum green (4s) not over yet
+314,641.49,EAST,6,0,RED,SOUTH,Minimum green (4s) not over yet
+314,641.49,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+315,641.79,NORTH,11,0,RED,SOUTH,Minimum green (4s) not over yet
+315,641.79,SOUTH,10,0,GREEN,SOUTH,Minimum green (4s) not over yet
+315,641.79,EAST,6,0,RED,SOUTH,Minimum green (4s) not over yet
+315,641.79,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+316,641.84,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+316,641.84,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+316,641.84,EAST,6,0,RED,SOUTH,Minimum green (4s) not over yet
+316,641.84,WEST,10,0,RED,SOUTH,Minimum green (4s) not over yet
+317,642.13,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+317,642.13,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+317,642.13,EAST,6,0,RED,SOUTH,Minimum green (4s) not over yet
+317,642.13,WEST,10,0,RED,SOUTH,Minimum green (4s) not over yet
+318,642.18,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+318,642.18,SOUTH,12,0,GREEN,SOUTH,Minimum green (4s) not over yet
+318,642.18,EAST,6,0,RED,SOUTH,Minimum green (4s) not over yet
+318,642.18,WEST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+319,642.49,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+319,642.49,SOUTH,12,0,GREEN,SOUTH,Minimum green (4s) not over yet
+319,642.49,EAST,6,0,RED,SOUTH,Minimum green (4s) not over yet
+319,642.49,WEST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+320,642.53,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+320,642.53,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+320,642.53,EAST,7,0,RED,SOUTH,Minimum green (4s) not over yet
+320,642.53,WEST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+321,642.79,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+321,642.79,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+321,642.79,EAST,7,0,RED,SOUTH,Minimum green (4s) not over yet
+321,642.79,WEST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+322,642.83,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+322,642.83,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+322,642.83,EAST,7,0,RED,SOUTH,Minimum green (4s) not over yet
+322,642.83,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+323,643.10,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+323,643.10,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+323,643.10,EAST,7,0,RED,SOUTH,Minimum green (4s) not over yet
+323,643.10,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+324,643.13,NORTH,10,0,RED,SOUTH,Minimum green (4s) not over yet
+324,643.13,SOUTH,12,0,GREEN,SOUTH,Minimum green (4s) not over yet
+324,643.13,EAST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+324,643.13,WEST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+325,643.43,NORTH,10,0,RED,SOUTH,Minimum green (4s) not over yet
+325,643.43,SOUTH,12,0,GREEN,SOUTH,Minimum green (4s) not over yet
+325,643.43,EAST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+325,643.43,WEST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+326,643.47,NORTH,11,0,RED,SOUTH,Minimum green (4s) not over yet
+326,643.47,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+326,643.47,EAST,7,0,RED,SOUTH,Minimum green (4s) not over yet
+326,643.47,WEST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+327,643.76,NORTH,11,0,RED,SOUTH,Minimum green (4s) not over yet
+327,643.76,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+327,643.76,EAST,7,0,RED,SOUTH,Minimum green (4s) not over yet
+327,643.76,WEST,11,0,RED,SOUTH,Minimum green (4s) not over yet
+328,643.81,NORTH,11,0,RED,SOUTH,Minimum green (4s) not over yet
+328,643.81,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+328,643.81,EAST,10,0,RED,SOUTH,Minimum green (4s) not over yet
+328,643.81,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+329,644.11,NORTH,11,0,RED,SOUTH,Minimum green (4s) not over yet
+329,644.11,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+329,644.11,EAST,10,0,RED,SOUTH,Minimum green (4s) not over yet
+329,644.11,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+330,644.15,NORTH,11,0,RED,SOUTH,Minimum green (4s) not over yet
+330,644.15,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+330,644.15,EAST,8,0,RED,SOUTH,Minimum green (4s) not over yet
+330,644.15,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+331,644.40,NORTH,11,0,RED,SOUTH,Minimum green (4s) not over yet
+331,644.40,SOUTH,11,0,GREEN,SOUTH,Minimum green (4s) not over yet
+331,644.40,EAST,8,0,RED,SOUTH,Minimum green (4s) not over yet
+331,644.40,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+332,644.43,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+332,644.43,SOUTH,12,0,GREEN,SOUTH,Minimum green (4s) not over yet
+332,644.43,EAST,8,0,RED,SOUTH,Minimum green (4s) not over yet
+332,644.43,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+333,644.69,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+333,644.69,SOUTH,12,0,GREEN,SOUTH,Minimum green (4s) not over yet
+333,644.69,EAST,8,0,RED,SOUTH,Minimum green (4s) not over yet
+333,644.69,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+334,644.72,NORTH,12,0,RED,SOUTH,Minimum green (4s) not over yet
+334,644.72,SOUTH,12,0,GREEN,SOUTH,Minimum green (4s) not over yet
+334,644.72,EAST,8,0,RED,SOUTH,Minimum green (4s) not over yet
+334,644.72,WEST,12,0,RED,SOUTH,Minimum green (4s) not over yet
+335,644.96,NORTH,12,0,RED,SOUTH,Still busiest (12 vehicles)
+335,644.96,SOUTH,12,0,GREEN,SOUTH,Still busiest (12 vehicles)
+335,644.96,EAST,8,0,RED,SOUTH,Still busiest (12 vehicles)
+335,644.96,WEST,12,0,RED,SOUTH,Still busiest (12 vehicles)
+336,644.99,NORTH,11,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+336,644.99,SOUTH,11,0,GREEN,SOUTH,Holding green (lead too small: 11 vs 12)
+336,644.99,EAST,9,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+336,644.99,WEST,12,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+337,645.22,NORTH,11,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+337,645.22,SOUTH,11,0,GREEN,SOUTH,Holding green (lead too small: 11 vs 12)
+337,645.22,EAST,9,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+337,645.22,WEST,12,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+338,645.25,NORTH,12,0,RED,SOUTH,Still busiest (12 vehicles)
+338,645.25,SOUTH,12,0,GREEN,SOUTH,Still busiest (12 vehicles)
+338,645.25,EAST,12,0,RED,SOUTH,Still busiest (12 vehicles)
+338,645.25,WEST,12,0,RED,SOUTH,Still busiest (12 vehicles)
+339,645.49,NORTH,12,0,RED,SOUTH,Still busiest (12 vehicles)
+339,645.49,SOUTH,12,0,GREEN,SOUTH,Still busiest (12 vehicles)
+339,645.49,EAST,12,0,RED,SOUTH,Still busiest (12 vehicles)
+339,645.49,WEST,12,0,RED,SOUTH,Still busiest (12 vehicles)
+340,645.52,NORTH,11,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+340,645.52,SOUTH,11,0,GREEN,SOUTH,Holding green (lead too small: 11 vs 12)
+340,645.52,EAST,12,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+340,645.52,WEST,12,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+341,645.78,NORTH,11,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+341,645.78,SOUTH,11,0,GREEN,SOUTH,Holding green (lead too small: 11 vs 12)
+341,645.78,EAST,12,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+341,645.78,WEST,12,0,RED,SOUTH,Holding green (lead too small: 11 vs 12)
+342,645.82,NORTH,10,0,RED,SOUTH,Still busiest (13 vehicles)
+342,645.82,SOUTH,13,0,GREEN,SOUTH,Still busiest (13 vehicles)
+342,645.82,EAST,12,0,RED,SOUTH,Still busiest (13 vehicles)
+342,645.82,WEST,12,0,RED,SOUTH,Still busiest (13 vehicles)
+343,646.13,NORTH,10,0,RED,SOUTH,Still busiest (13 vehicles)
+343,646.13,SOUTH,13,0,GREEN,SOUTH,Still busiest (13 vehicles)
+343,646.13,EAST,12,0,RED,SOUTH,Still busiest (13 vehicles)
+343,646.13,WEST,12,0,RED,SOUTH,Still busiest (13 vehicles)
+344,646.17,NORTH,10,0,RED,SOUTH,Still busiest (12 vehicles)
+344,646.17,SOUTH,12,0,GREEN,SOUTH,Still busiest (12 vehicles)
+344,646.17,EAST,8,0,RED,SOUTH,Still busiest (12 vehicles)
+344,646.17,WEST,12,0,RED,SOUTH,Still busiest (12 vehicles)
+345,646.42,NORTH,10,0,RED,SOUTH,Still busiest (12 vehicles)
+345,646.42,SOUTH,12,0,GREEN,SOUTH,Still busiest (12 vehicles)
+345,646.42,EAST,8,0,RED,SOUTH,Still busiest (12 vehicles)
+345,646.42,WEST,12,0,RED,SOUTH,Still busiest (12 vehicles)
+346,646.46,NORTH,10,0,RED,WEST,Busiest lane (12 vehicles)
+346,646.46,SOUTH,10,0,RED,WEST,Busiest lane (12 vehicles)
+346,646.46,EAST,9,0,RED,WEST,Busiest lane (12 vehicles)
+346,646.46,WEST,12,0,GREEN,WEST,Busiest lane (12 vehicles)
+347,646.78,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+347,646.78,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+347,646.78,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+347,646.78,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+348,646.81,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+348,646.81,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+348,646.81,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+348,646.81,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+349,647.11,NORTH,11,0,RED,WEST,Minimum green (4s) not over yet
+349,647.11,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+349,647.11,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+349,647.11,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+350,647.14,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+350,647.14,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+350,647.14,EAST,11,0,RED,WEST,Minimum green (4s) not over yet
+350,647.14,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+351,647.42,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+351,647.42,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+351,647.42,EAST,11,0,RED,WEST,Minimum green (4s) not over yet
+351,647.42,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+352,647.46,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+352,647.46,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+352,647.46,EAST,11,0,RED,WEST,Minimum green (4s) not over yet
+352,647.46,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+353,647.76,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+353,647.76,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+353,647.76,EAST,11,0,RED,WEST,Minimum green (4s) not over yet
+353,647.76,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+354,647.79,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+354,647.79,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+354,647.79,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+354,647.79,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+355,648.09,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+355,648.09,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+355,648.09,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+355,648.09,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+356,648.13,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+356,648.13,SOUTH,11,0,RED,WEST,Minimum green (4s) not over yet
+356,648.13,EAST,13,0,RED,WEST,Minimum green (4s) not over yet
+356,648.13,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+357,648.45,NORTH,9,0,RED,WEST,Minimum green (4s) not over yet
+357,648.45,SOUTH,11,0,RED,WEST,Minimum green (4s) not over yet
+357,648.45,EAST,13,0,RED,WEST,Minimum green (4s) not over yet
+357,648.45,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+358,648.49,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+358,648.49,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+358,648.49,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+358,648.49,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+359,648.80,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+359,648.80,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+359,648.80,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+359,648.80,WEST,14,0,GREEN,WEST,Minimum green (4s) not over yet
+360,648.84,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+360,648.84,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+360,648.84,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+360,648.84,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+361,649.15,NORTH,10,0,RED,WEST,Minimum green (4s) not over yet
+361,649.15,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+361,649.15,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+361,649.15,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+362,649.18,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+362,649.18,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+362,649.18,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+362,649.18,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+363,649.50,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+363,649.50,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+363,649.50,EAST,12,0,RED,WEST,Minimum green (4s) not over yet
+363,649.50,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+364,649.53,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+364,649.53,SOUTH,11,0,RED,WEST,Minimum green (4s) not over yet
+364,649.53,EAST,10,0,RED,WEST,Minimum green (4s) not over yet
+364,649.53,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+365,649.77,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+365,649.77,SOUTH,11,0,RED,WEST,Minimum green (4s) not over yet
+365,649.77,EAST,10,0,RED,WEST,Minimum green (4s) not over yet
+365,649.77,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+366,649.80,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+366,649.80,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+366,649.80,EAST,11,0,RED,WEST,Minimum green (4s) not over yet
+366,649.80,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+367,650.04,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+367,650.04,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+367,650.04,EAST,11,0,RED,WEST,Minimum green (4s) not over yet
+367,650.04,WEST,13,0,GREEN,WEST,Minimum green (4s) not over yet
+368,650.07,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+368,650.07,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+368,650.07,EAST,11,0,RED,WEST,Minimum green (4s) not over yet
+368,650.07,WEST,9,0,GREEN,WEST,Minimum green (4s) not over yet
+369,650.31,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+369,650.31,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+369,650.31,EAST,11,0,RED,WEST,Minimum green (4s) not over yet
+369,650.31,WEST,9,0,GREEN,WEST,Minimum green (4s) not over yet
+370,650.35,NORTH,7,0,RED,WEST,Minimum green (4s) not over yet
+370,650.35,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+370,650.35,EAST,13,0,RED,WEST,Minimum green (4s) not over yet
+370,650.35,WEST,12,0,GREEN,WEST,Minimum green (4s) not over yet
+371,650.62,NORTH,7,0,RED,WEST,Holding green (lead too small: 12 vs 13)
+371,650.62,SOUTH,10,0,RED,WEST,Holding green (lead too small: 12 vs 13)
+371,650.62,EAST,13,0,RED,WEST,Holding green (lead too small: 12 vs 13)
+371,650.62,WEST,12,0,GREEN,WEST,Holding green (lead too small: 12 vs 13)
+372,650.65,NORTH,7,0,RED,WEST,Still busiest (14 vehicles)
+372,650.65,SOUTH,10,0,RED,WEST,Still busiest (14 vehicles)
+372,650.65,EAST,11,0,RED,WEST,Still busiest (14 vehicles)
+372,650.65,WEST,14,0,GREEN,WEST,Still busiest (14 vehicles)
+373,650.90,NORTH,7,0,RED,WEST,Still busiest (14 vehicles)
+373,650.90,SOUTH,10,0,RED,WEST,Still busiest (14 vehicles)
+373,650.90,EAST,11,0,RED,WEST,Still busiest (14 vehicles)
+373,650.90,WEST,14,0,GREEN,WEST,Still busiest (14 vehicles)
+374,650.94,NORTH,8,0,RED,EAST,Busiest lane (11 vehicles)
+374,650.94,SOUTH,10,0,RED,EAST,Busiest lane (11 vehicles)
+374,650.94,EAST,11,0,GREEN,EAST,Busiest lane (11 vehicles)
+374,650.94,WEST,9,0,RED,EAST,Busiest lane (11 vehicles)
+375,651.19,NORTH,8,0,RED,EAST,Minimum green (4s) not over yet
+375,651.19,SOUTH,10,0,RED,EAST,Minimum green (4s) not over yet
+375,651.19,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+375,651.19,WEST,9,0,RED,EAST,Minimum green (4s) not over yet
+376,651.23,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+376,651.23,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+376,651.23,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+376,651.23,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+377,651.50,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+377,651.50,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+377,651.50,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+377,651.50,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+378,651.54,NORTH,7,0,RED,EAST,Minimum green (4s) not over yet
+378,651.54,SOUTH,9,0,RED,EAST,Minimum green (4s) not over yet
+378,651.54,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+378,651.54,WEST,12,0,RED,EAST,Minimum green (4s) not over yet
+379,651.79,NORTH,7,0,RED,EAST,Minimum green (4s) not over yet
+379,651.79,SOUTH,9,0,RED,EAST,Minimum green (4s) not over yet
+379,651.79,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+379,651.79,WEST,12,0,RED,EAST,Minimum green (4s) not over yet
+380,651.82,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+380,651.82,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+380,651.82,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+380,651.82,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+381,652.27,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+381,652.27,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+381,652.27,EAST,11,0,GREEN,EAST,Minimum green (4s) not over yet
+381,652.27,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+382,652.31,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+382,652.31,SOUTH,10,0,RED,EAST,Minimum green (4s) not over yet
+382,652.31,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+382,652.31,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+383,652.54,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+383,652.54,SOUTH,10,0,RED,EAST,Minimum green (4s) not over yet
+383,652.54,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+383,652.54,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+384,652.58,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+384,652.58,SOUTH,11,0,RED,EAST,Minimum green (4s) not over yet
+384,652.58,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+384,652.58,WEST,12,0,RED,EAST,Minimum green (4s) not over yet
+385,652.82,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+385,652.82,SOUTH,11,0,RED,EAST,Minimum green (4s) not over yet
+385,652.82,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+385,652.82,WEST,12,0,RED,EAST,Minimum green (4s) not over yet
+386,652.85,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+386,652.85,SOUTH,12,0,RED,EAST,Minimum green (4s) not over yet
+386,652.85,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+386,652.85,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+387,653.15,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+387,653.15,SOUTH,12,0,RED,EAST,Minimum green (4s) not over yet
+387,653.15,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+387,653.15,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+388,653.18,NORTH,8,0,RED,EAST,Minimum green (4s) not over yet
+388,653.18,SOUTH,11,0,RED,EAST,Minimum green (4s) not over yet
+388,653.18,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+388,653.18,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+389,653.49,NORTH,8,0,RED,EAST,Minimum green (4s) not over yet
+389,653.49,SOUTH,11,0,RED,EAST,Minimum green (4s) not over yet
+389,653.49,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+389,653.49,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+390,653.52,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+390,653.52,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+390,653.52,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+390,653.52,WEST,12,0,RED,EAST,Minimum green (4s) not over yet
+391,653.84,NORTH,10,0,RED,EAST,Minimum green (4s) not over yet
+391,653.84,SOUTH,8,0,RED,EAST,Minimum green (4s) not over yet
+391,653.84,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+391,653.84,WEST,12,0,RED,EAST,Minimum green (4s) not over yet
+392,653.88,NORTH,8,0,RED,EAST,Minimum green (4s) not over yet
+392,653.88,SOUTH,9,0,RED,EAST,Minimum green (4s) not over yet
+392,653.88,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+392,653.88,WEST,10,0,RED,EAST,Minimum green (4s) not over yet
+393,654.20,NORTH,8,0,RED,EAST,Minimum green (4s) not over yet
+393,654.20,SOUTH,9,0,RED,EAST,Minimum green (4s) not over yet
+393,654.20,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+393,654.20,WEST,10,0,RED,EAST,Minimum green (4s) not over yet
+394,654.26,NORTH,8,0,RED,EAST,Minimum green (4s) not over yet
+394,654.26,SOUTH,9,0,RED,EAST,Minimum green (4s) not over yet
+394,654.26,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+394,654.26,WEST,10,0,RED,EAST,Minimum green (4s) not over yet
+395,654.61,NORTH,8,0,RED,EAST,Minimum green (4s) not over yet
+395,654.61,SOUTH,9,0,RED,EAST,Minimum green (4s) not over yet
+395,654.61,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+395,654.61,WEST,10,0,RED,EAST,Minimum green (4s) not over yet
+396,654.65,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+396,654.65,SOUTH,10,0,RED,EAST,Minimum green (4s) not over yet
+396,654.65,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+396,654.65,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+397,654.92,NORTH,6,0,RED,EAST,Minimum green (4s) not over yet
+397,654.92,SOUTH,10,0,RED,EAST,Minimum green (4s) not over yet
+397,654.92,EAST,12,0,GREEN,EAST,Minimum green (4s) not over yet
+397,654.92,WEST,11,0,RED,EAST,Minimum green (4s) not over yet
+398,654.97,NORTH,5,0,RED,EAST,Still busiest (12 vehicles)
+398,654.97,SOUTH,11,0,RED,EAST,Still busiest (12 vehicles)
+398,654.97,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+398,654.97,WEST,9,0,RED,EAST,Still busiest (12 vehicles)
+399,655.25,NORTH,5,0,RED,EAST,Still busiest (12 vehicles)
+399,655.25,SOUTH,11,0,RED,EAST,Still busiest (12 vehicles)
+399,655.25,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+399,655.25,WEST,9,0,RED,EAST,Still busiest (12 vehicles)
+400,655.29,NORTH,6,0,RED,EAST,Still busiest (12 vehicles)
+400,655.29,SOUTH,11,0,RED,EAST,Still busiest (12 vehicles)
+400,655.29,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+400,655.29,WEST,7,0,RED,EAST,Still busiest (12 vehicles)
+401,655.59,NORTH,6,0,RED,EAST,Still busiest (12 vehicles)
+401,655.59,SOUTH,11,0,RED,EAST,Still busiest (12 vehicles)
+401,655.59,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+401,655.59,WEST,7,0,RED,EAST,Still busiest (12 vehicles)
+402,655.62,NORTH,7,0,RED,EAST,Still busiest (13 vehicles)
+402,655.62,SOUTH,12,0,RED,EAST,Still busiest (13 vehicles)
+402,655.62,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+402,655.62,WEST,7,0,RED,EAST,Still busiest (13 vehicles)
+403,655.92,NORTH,7,0,RED,EAST,Still busiest (13 vehicles)
+403,655.92,SOUTH,12,0,RED,EAST,Still busiest (13 vehicles)
+403,655.92,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+403,655.92,WEST,7,0,RED,EAST,Still busiest (13 vehicles)
+404,655.95,NORTH,8,0,RED,EAST,Still busiest (12 vehicles)
+404,655.95,SOUTH,12,0,RED,EAST,Still busiest (12 vehicles)
+404,655.95,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+404,655.95,WEST,6,0,RED,EAST,Still busiest (12 vehicles)
+405,656.21,NORTH,8,0,RED,EAST,Still busiest (12 vehicles)
+405,656.21,SOUTH,12,0,RED,EAST,Still busiest (12 vehicles)
+405,656.21,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+405,656.21,WEST,6,0,RED,EAST,Still busiest (12 vehicles)
+406,656.24,NORTH,6,0,RED,EAST,Still busiest (12 vehicles)
+406,656.24,SOUTH,11,0,RED,EAST,Still busiest (12 vehicles)
+406,656.24,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+406,656.24,WEST,8,0,RED,EAST,Still busiest (12 vehicles)
+407,656.51,NORTH,6,0,RED,EAST,Still busiest (12 vehicles)
+407,656.51,SOUTH,11,0,RED,EAST,Still busiest (12 vehicles)
+407,656.51,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+407,656.51,WEST,8,0,RED,EAST,Still busiest (12 vehicles)
+408,656.54,NORTH,5,0,RED,EAST,Still busiest (14 vehicles)
+408,656.54,SOUTH,12,0,RED,EAST,Still busiest (14 vehicles)
+408,656.54,EAST,14,0,GREEN,EAST,Still busiest (14 vehicles)
+408,656.54,WEST,7,0,RED,EAST,Still busiest (14 vehicles)
+409,656.80,NORTH,5,0,RED,EAST,Still busiest (14 vehicles)
+409,656.80,SOUTH,12,0,RED,EAST,Still busiest (14 vehicles)
+409,656.80,EAST,14,0,GREEN,EAST,Still busiest (14 vehicles)
+409,656.80,WEST,7,0,RED,EAST,Still busiest (14 vehicles)
+410,656.83,NORTH,5,0,RED,EAST,Still busiest (13 vehicles)
+410,656.83,SOUTH,11,0,RED,EAST,Still busiest (13 vehicles)
+410,656.83,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+410,656.83,WEST,8,0,RED,EAST,Still busiest (13 vehicles)
+411,657.12,NORTH,5,0,RED,EAST,Still busiest (13 vehicles)
+411,657.12,SOUTH,11,0,RED,EAST,Still busiest (13 vehicles)
+411,657.12,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+411,657.12,WEST,8,0,RED,EAST,Still busiest (13 vehicles)
+412,657.16,NORTH,5,0,RED,EAST,Still busiest (14 vehicles)
+412,657.16,SOUTH,11,0,RED,EAST,Still busiest (14 vehicles)
+412,657.16,EAST,14,0,GREEN,EAST,Still busiest (14 vehicles)
+412,657.16,WEST,7,0,RED,EAST,Still busiest (14 vehicles)
+413,657.41,NORTH,5,0,RED,EAST,Still busiest (14 vehicles)
+413,657.41,SOUTH,11,0,RED,EAST,Still busiest (14 vehicles)
+413,657.41,EAST,14,0,GREEN,EAST,Still busiest (14 vehicles)
+413,657.41,WEST,7,0,RED,EAST,Still busiest (14 vehicles)
+414,657.44,NORTH,6,0,RED,EAST,Still busiest (13 vehicles)
+414,657.44,SOUTH,11,0,RED,EAST,Still busiest (13 vehicles)
+414,657.44,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+414,657.44,WEST,6,0,RED,EAST,Still busiest (13 vehicles)
+415,657.72,NORTH,6,0,RED,EAST,Still busiest (13 vehicles)
+415,657.72,SOUTH,11,0,RED,EAST,Still busiest (13 vehicles)
+415,657.72,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+415,657.72,WEST,6,0,RED,EAST,Still busiest (13 vehicles)
+416,657.75,NORTH,5,0,RED,EAST,Still busiest (13 vehicles)
+416,657.75,SOUTH,12,0,RED,EAST,Still busiest (13 vehicles)
+416,657.75,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+416,657.75,WEST,6,0,RED,EAST,Still busiest (13 vehicles)
+417,658.02,NORTH,5,0,RED,EAST,Still busiest (13 vehicles)
+417,658.02,SOUTH,12,0,RED,EAST,Still busiest (13 vehicles)
+417,658.02,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+417,658.02,WEST,6,0,RED,EAST,Still busiest (13 vehicles)
+418,658.06,NORTH,5,0,RED,EAST,Still busiest (13 vehicles)
+418,658.06,SOUTH,12,0,RED,EAST,Still busiest (13 vehicles)
+418,658.06,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+418,658.06,WEST,6,0,RED,EAST,Still busiest (13 vehicles)
+419,658.36,NORTH,5,0,RED,EAST,Still busiest (13 vehicles)
+419,658.36,SOUTH,12,0,RED,EAST,Still busiest (13 vehicles)
+419,658.36,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+419,658.36,WEST,6,0,RED,EAST,Still busiest (13 vehicles)
+420,658.40,NORTH,6,0,RED,EAST,Still busiest (13 vehicles)
+420,658.40,SOUTH,12,0,RED,EAST,Still busiest (13 vehicles)
+420,658.40,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+420,658.40,WEST,6,0,RED,EAST,Still busiest (13 vehicles)
+421,658.66,NORTH,6,0,RED,EAST,Still busiest (13 vehicles)
+421,658.66,SOUTH,12,0,RED,EAST,Still busiest (13 vehicles)
+421,658.66,EAST,13,0,GREEN,EAST,Still busiest (13 vehicles)
+421,658.66,WEST,6,0,RED,EAST,Still busiest (13 vehicles)
+422,658.70,NORTH,6,0,RED,EAST,Still busiest (12 vehicles)
+422,658.70,SOUTH,12,0,RED,EAST,Still busiest (12 vehicles)
+422,658.70,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+422,658.70,WEST,7,0,RED,EAST,Still busiest (12 vehicles)
+423,658.97,NORTH,6,0,RED,EAST,Still busiest (12 vehicles)
+423,658.97,SOUTH,12,0,RED,EAST,Still busiest (12 vehicles)
+423,658.97,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+423,658.97,WEST,7,0,RED,EAST,Still busiest (12 vehicles)
+424,659.01,NORTH,6,0,RED,EAST,Still busiest (11 vehicles)
+424,659.01,SOUTH,11,0,RED,EAST,Still busiest (11 vehicles)
+424,659.01,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+424,659.01,WEST,4,0,RED,EAST,Still busiest (11 vehicles)
+425,659.26,NORTH,6,0,RED,EAST,Still busiest (11 vehicles)
+425,659.26,SOUTH,11,0,RED,EAST,Still busiest (11 vehicles)
+425,659.26,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+425,659.26,WEST,4,0,RED,EAST,Still busiest (11 vehicles)
+426,659.31,NORTH,5,0,RED,EAST,Still busiest (11 vehicles)
+426,659.31,SOUTH,10,0,RED,EAST,Still busiest (11 vehicles)
+426,659.31,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+426,659.31,WEST,5,0,RED,EAST,Still busiest (11 vehicles)
+427,659.60,NORTH,5,0,RED,EAST,Still busiest (11 vehicles)
+427,659.60,SOUTH,10,0,RED,EAST,Still busiest (11 vehicles)
+427,659.60,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+427,659.60,WEST,5,0,RED,EAST,Still busiest (11 vehicles)
+428,659.65,NORTH,5,0,RED,EAST,Still busiest (10 vehicles)
+428,659.65,SOUTH,10,0,RED,EAST,Still busiest (10 vehicles)
+428,659.65,EAST,10,0,GREEN,EAST,Still busiest (10 vehicles)
+428,659.65,WEST,5,0,RED,EAST,Still busiest (10 vehicles)
+429,659.96,NORTH,5,0,RED,EAST,Still busiest (10 vehicles)
+429,659.96,SOUTH,10,0,RED,EAST,Still busiest (10 vehicles)
+429,659.96,EAST,10,0,GREEN,EAST,Still busiest (10 vehicles)
+429,659.96,WEST,5,0,RED,EAST,Still busiest (10 vehicles)
+430,660.00,NORTH,6,0,RED,EAST,Still busiest (12 vehicles)
+430,660.00,SOUTH,10,0,RED,EAST,Still busiest (12 vehicles)
+430,660.00,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+430,660.00,WEST,6,0,RED,EAST,Still busiest (12 vehicles)
+431,660.28,NORTH,6,0,RED,EAST,Still busiest (12 vehicles)
+431,660.28,SOUTH,10,0,RED,EAST,Still busiest (12 vehicles)
+431,660.28,EAST,12,0,GREEN,EAST,Still busiest (12 vehicles)
+431,660.28,WEST,6,0,RED,EAST,Still busiest (12 vehicles)
+432,660.31,NORTH,5,0,RED,EAST,Still busiest (11 vehicles)
+432,660.31,SOUTH,11,0,RED,EAST,Still busiest (11 vehicles)
+432,660.31,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+432,660.31,WEST,9,0,RED,EAST,Still busiest (11 vehicles)
+433,660.59,NORTH,5,0,RED,EAST,Still busiest (11 vehicles)
+433,660.59,SOUTH,11,0,RED,EAST,Still busiest (11 vehicles)
+433,660.59,EAST,11,0,GREEN,EAST,Still busiest (11 vehicles)
+433,660.59,WEST,9,0,RED,EAST,Still busiest (11 vehicles)
+434,660.63,NORTH,5,0,RED,WEST,Busiest lane (11 vehicles)
+434,660.63,SOUTH,10,0,RED,WEST,Busiest lane (11 vehicles)
+434,660.63,EAST,9,0,RED,WEST,Busiest lane (11 vehicles)
+434,660.63,WEST,11,0,GREEN,WEST,Busiest lane (11 vehicles)
+435,660.94,NORTH,5,0,RED,WEST,Minimum green (4s) not over yet
+435,660.94,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+435,660.94,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+435,660.94,WEST,11,0,GREEN,WEST,Minimum green (4s) not over yet
+436,661.68,NORTH,6,0,RED,WEST,Minimum green (4s) not over yet
+436,661.68,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+436,661.68,EAST,5,0,RED,WEST,Minimum green (4s) not over yet
+436,661.68,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+437,661.94,NORTH,6,0,RED,WEST,Minimum green (4s) not over yet
+437,661.94,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+437,661.94,EAST,5,0,RED,WEST,Minimum green (4s) not over yet
+437,661.94,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+438,661.98,NORTH,6,0,RED,WEST,Minimum green (4s) not over yet
+438,661.98,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+438,661.98,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+438,661.98,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+439,662.23,NORTH,6,0,RED,WEST,Minimum green (4s) not over yet
+439,662.23,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+439,662.23,EAST,9,0,RED,WEST,Minimum green (4s) not over yet
+439,662.23,WEST,10,0,GREEN,WEST,Minimum green (4s) not over yet
+440,662.26,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+440,662.26,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+440,662.26,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+440,662.26,WEST,9,0,GREEN,WEST,Minimum green (4s) not over yet
+441,662.56,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+441,662.56,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+441,662.56,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+441,662.56,WEST,9,0,GREEN,WEST,Minimum green (4s) not over yet
+442,662.59,NORTH,7,0,RED,WEST,Minimum green (4s) not over yet
+442,662.59,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+442,662.59,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+442,662.59,WEST,6,0,GREEN,WEST,Minimum green (4s) not over yet
+443,662.84,NORTH,7,0,RED,WEST,Minimum green (4s) not over yet
+443,662.84,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+443,662.84,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+443,662.84,WEST,6,0,GREEN,WEST,Minimum green (4s) not over yet
+444,662.88,NORTH,7,0,RED,WEST,Minimum green (4s) not over yet
+444,662.88,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+444,662.88,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+444,662.88,WEST,5,0,GREEN,WEST,Minimum green (4s) not over yet
+445,663.12,NORTH,7,0,RED,WEST,Minimum green (4s) not over yet
+445,663.12,SOUTH,9,0,RED,WEST,Minimum green (4s) not over yet
+445,663.12,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+445,663.12,WEST,5,0,GREEN,WEST,Minimum green (4s) not over yet
+446,663.16,NORTH,7,0,RED,WEST,Minimum green (4s) not over yet
+446,663.16,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+446,663.16,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+446,663.16,WEST,6,0,GREEN,WEST,Minimum green (4s) not over yet
+447,663.44,NORTH,7,0,RED,WEST,Minimum green (4s) not over yet
+447,663.44,SOUTH,10,0,RED,WEST,Minimum green (4s) not over yet
+447,663.44,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+447,663.44,WEST,6,0,GREEN,WEST,Minimum green (4s) not over yet
+448,663.48,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+448,663.48,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+448,663.48,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+448,663.48,WEST,6,0,GREEN,WEST,Minimum green (4s) not over yet
+449,663.75,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+449,663.75,SOUTH,7,0,RED,WEST,Minimum green (4s) not over yet
+449,663.75,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+449,663.75,WEST,6,0,GREEN,WEST,Minimum green (4s) not over yet
+450,663.80,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+450,663.80,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+450,663.80,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+450,663.80,WEST,6,0,GREEN,WEST,Minimum green (4s) not over yet
+451,664.05,NORTH,8,0,RED,WEST,Minimum green (4s) not over yet
+451,664.05,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+451,664.05,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+451,664.05,WEST,6,0,GREEN,WEST,Minimum green (4s) not over yet
+452,664.09,NORTH,6,0,RED,WEST,Minimum green (4s) not over yet
+452,664.09,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+452,664.09,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+452,664.09,WEST,7,0,GREEN,WEST,Minimum green (4s) not over yet
+453,664.35,NORTH,6,0,RED,WEST,Minimum green (4s) not over yet
+453,664.35,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+453,664.35,EAST,6,0,RED,WEST,Minimum green (4s) not over yet
+453,664.35,WEST,7,0,GREEN,WEST,Minimum green (4s) not over yet
+454,664.39,NORTH,6,0,RED,WEST,Minimum green (4s) not over yet
+454,664.39,SOUTH,8,0,RED,WEST,Minimum green (4s) not over yet
+454,664.39,EAST,7,0,RED,WEST,Minimum green (4s) not over yet
+454,664.39,WEST,7,0,GREEN,WEST,Minimum green (4s) not over yet
+455,664.65,NORTH,6,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+455,664.65,SOUTH,8,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+455,664.65,EAST,7,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+455,664.65,WEST,7,0,GREEN,WEST,Holding green (lead too small: 7 vs 8)
+456,664.71,NORTH,5,0,RED,WEST,Holding green (lead too small: 8 vs 9)
+456,664.71,SOUTH,7,0,RED,WEST,Holding green (lead too small: 8 vs 9)
+456,664.71,EAST,9,0,RED,WEST,Holding green (lead too small: 8 vs 9)
+456,664.71,WEST,8,0,GREEN,WEST,Holding green (lead too small: 8 vs 9)
+457,664.99,NORTH,5,0,RED,WEST,Holding green (lead too small: 8 vs 9)
+457,664.99,SOUTH,7,0,RED,WEST,Holding green (lead too small: 8 vs 9)
+457,664.99,EAST,9,0,RED,WEST,Holding green (lead too small: 8 vs 9)
+457,664.99,WEST,8,0,GREEN,WEST,Holding green (lead too small: 8 vs 9)
+458,665.04,NORTH,5,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+458,665.04,SOUTH,8,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+458,665.04,EAST,6,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+458,665.04,WEST,7,0,GREEN,WEST,Holding green (lead too small: 7 vs 8)
+459,665.33,NORTH,5,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+459,665.33,SOUTH,8,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+459,665.33,EAST,6,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+459,665.33,WEST,7,0,GREEN,WEST,Holding green (lead too small: 7 vs 8)
+460,665.37,NORTH,5,0,RED,WEST,Still busiest (8 vehicles)
+460,665.37,SOUTH,6,0,RED,WEST,Still busiest (8 vehicles)
+460,665.37,EAST,8,0,RED,WEST,Still busiest (8 vehicles)
+460,665.37,WEST,8,0,GREEN,WEST,Still busiest (8 vehicles)
+461,665.65,NORTH,5,0,RED,WEST,Still busiest (8 vehicles)
+461,665.65,SOUTH,6,0,RED,WEST,Still busiest (8 vehicles)
+461,665.65,EAST,8,0,RED,WEST,Still busiest (8 vehicles)
+461,665.65,WEST,8,0,GREEN,WEST,Still busiest (8 vehicles)
+462,665.69,NORTH,5,0,RED,WEST,Still busiest (9 vehicles)
+462,665.69,SOUTH,8,0,RED,WEST,Still busiest (9 vehicles)
+462,665.69,EAST,7,0,RED,WEST,Still busiest (9 vehicles)
+462,665.69,WEST,9,0,GREEN,WEST,Still busiest (9 vehicles)
+463,666.02,NORTH,5,0,RED,WEST,Still busiest (9 vehicles)
+463,666.02,SOUTH,8,0,RED,WEST,Still busiest (9 vehicles)
+463,666.02,EAST,7,0,RED,WEST,Still busiest (9 vehicles)
+463,666.02,WEST,9,0,GREEN,WEST,Still busiest (9 vehicles)
+464,666.05,NORTH,7,0,RED,WEST,Still busiest (9 vehicles)
+464,666.05,SOUTH,7,0,RED,WEST,Still busiest (9 vehicles)
+464,666.05,EAST,6,0,RED,WEST,Still busiest (9 vehicles)
+464,666.05,WEST,9,0,GREEN,WEST,Still busiest (9 vehicles)
+465,666.35,NORTH,7,0,RED,WEST,Still busiest (9 vehicles)
+465,666.35,SOUTH,7,0,RED,WEST,Still busiest (9 vehicles)
+465,666.35,EAST,6,0,RED,WEST,Still busiest (9 vehicles)
+465,666.35,WEST,9,0,GREEN,WEST,Still busiest (9 vehicles)
+466,666.38,NORTH,4,0,RED,WEST,Still busiest (7 vehicles)
+466,666.38,SOUTH,6,0,RED,WEST,Still busiest (7 vehicles)
+466,666.38,EAST,6,0,RED,WEST,Still busiest (7 vehicles)
+466,666.38,WEST,7,0,GREEN,WEST,Still busiest (7 vehicles)
+467,666.68,NORTH,4,0,RED,WEST,Still busiest (7 vehicles)
+467,666.68,SOUTH,6,0,RED,WEST,Still busiest (7 vehicles)
+467,666.68,EAST,6,0,RED,WEST,Still busiest (7 vehicles)
+467,666.68,WEST,7,0,GREEN,WEST,Still busiest (7 vehicles)
+468,666.71,NORTH,4,0,RED,WEST,Still busiest (10 vehicles)
+468,666.71,SOUTH,7,0,RED,WEST,Still busiest (10 vehicles)
+468,666.71,EAST,7,0,RED,WEST,Still busiest (10 vehicles)
+468,666.71,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+469,667.03,NORTH,4,0,RED,WEST,Still busiest (10 vehicles)
+469,667.03,SOUTH,7,0,RED,WEST,Still busiest (10 vehicles)
+469,667.03,EAST,7,0,RED,WEST,Still busiest (10 vehicles)
+469,667.03,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+470,667.07,NORTH,6,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+470,667.07,SOUTH,5,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+470,667.07,EAST,8,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+470,667.07,WEST,7,0,GREEN,WEST,Holding green (lead too small: 7 vs 8)
+471,667.38,NORTH,6,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+471,667.38,SOUTH,5,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+471,667.38,EAST,8,0,RED,WEST,Holding green (lead too small: 7 vs 8)
+471,667.38,WEST,7,0,GREEN,WEST,Holding green (lead too small: 7 vs 8)
+472,667.41,NORTH,8,0,RED,WEST,Still busiest (10 vehicles)
+472,667.41,SOUTH,7,0,RED,WEST,Still busiest (10 vehicles)
+472,667.41,EAST,8,0,RED,WEST,Still busiest (10 vehicles)
+472,667.41,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+473,667.72,NORTH,8,0,RED,WEST,Still busiest (10 vehicles)
+473,667.72,SOUTH,7,0,RED,WEST,Still busiest (10 vehicles)
+473,667.72,EAST,8,0,RED,WEST,Still busiest (10 vehicles)
+473,667.72,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+474,667.76,NORTH,7,0,RED,WEST,Still busiest (8 vehicles)
+474,667.76,SOUTH,7,0,RED,WEST,Still busiest (8 vehicles)
+474,667.76,EAST,6,0,RED,WEST,Still busiest (8 vehicles)
+474,667.76,WEST,8,0,GREEN,WEST,Still busiest (8 vehicles)
+475,668.07,NORTH,7,0,RED,WEST,Still busiest (8 vehicles)
+475,668.07,SOUTH,7,0,RED,WEST,Still busiest (8 vehicles)
+475,668.07,EAST,6,0,RED,WEST,Still busiest (8 vehicles)
+475,668.07,WEST,8,0,GREEN,WEST,Still busiest (8 vehicles)
+476,668.10,NORTH,7,0,RED,WEST,Still busiest (12 vehicles)
+476,668.10,SOUTH,8,0,RED,WEST,Still busiest (12 vehicles)
+476,668.10,EAST,9,0,RED,WEST,Still busiest (12 vehicles)
+476,668.10,WEST,12,0,GREEN,WEST,Still busiest (12 vehicles)
+477,668.41,NORTH,7,0,RED,WEST,Still busiest (12 vehicles)
+477,668.41,SOUTH,8,0,RED,WEST,Still busiest (12 vehicles)
+477,668.41,EAST,9,0,RED,WEST,Still busiest (12 vehicles)
+477,668.41,WEST,12,0,GREEN,WEST,Still busiest (12 vehicles)
+478,668.45,NORTH,8,0,RED,WEST,Still busiest (10 vehicles)
+478,668.45,SOUTH,8,0,RED,WEST,Still busiest (10 vehicles)
+478,668.45,EAST,7,0,RED,WEST,Still busiest (10 vehicles)
+478,668.45,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+479,668.75,NORTH,8,0,RED,WEST,Still busiest (10 vehicles)
+479,668.75,SOUTH,8,0,RED,WEST,Still busiest (10 vehicles)
+479,668.75,EAST,7,0,RED,WEST,Still busiest (10 vehicles)
+479,668.75,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+480,668.78,NORTH,7,0,RED,WEST,Still busiest (9 vehicles)
+480,668.78,SOUTH,7,0,RED,WEST,Still busiest (9 vehicles)
+480,668.78,EAST,8,0,RED,WEST,Still busiest (9 vehicles)
+480,668.78,WEST,9,0,GREEN,WEST,Still busiest (9 vehicles)
+481,669.09,NORTH,7,0,RED,WEST,Still busiest (9 vehicles)
+481,669.09,SOUTH,7,0,RED,WEST,Still busiest (9 vehicles)
+481,669.09,EAST,8,0,RED,WEST,Still busiest (9 vehicles)
+481,669.09,WEST,9,0,GREEN,WEST,Still busiest (9 vehicles)
+482,669.12,NORTH,8,0,RED,WEST,Still busiest (13 vehicles)
+482,669.12,SOUTH,5,0,RED,WEST,Still busiest (13 vehicles)
+482,669.12,EAST,6,0,RED,WEST,Still busiest (13 vehicles)
+482,669.12,WEST,13,0,GREEN,WEST,Still busiest (13 vehicles)
+483,669.42,NORTH,8,0,RED,WEST,Still busiest (13 vehicles)
+483,669.42,SOUTH,5,0,RED,WEST,Still busiest (13 vehicles)
+483,669.42,EAST,6,0,RED,WEST,Still busiest (13 vehicles)
+483,669.42,WEST,13,0,GREEN,WEST,Still busiest (13 vehicles)
+484,669.45,NORTH,8,0,RED,WEST,Still busiest (14 vehicles)
+484,669.45,SOUTH,5,0,RED,WEST,Still busiest (14 vehicles)
+484,669.45,EAST,7,0,RED,WEST,Still busiest (14 vehicles)
+484,669.45,WEST,14,0,GREEN,WEST,Still busiest (14 vehicles)
+485,669.75,NORTH,8,0,RED,WEST,Still busiest (14 vehicles)
+485,669.75,SOUTH,5,0,RED,WEST,Still busiest (14 vehicles)
+485,669.75,EAST,7,0,RED,WEST,Still busiest (14 vehicles)
+485,669.75,WEST,14,0,GREEN,WEST,Still busiest (14 vehicles)
+486,669.78,NORTH,9,0,RED,WEST,Still busiest (10 vehicles)
+486,669.78,SOUTH,7,0,RED,WEST,Still busiest (10 vehicles)
+486,669.78,EAST,7,0,RED,WEST,Still busiest (10 vehicles)
+486,669.78,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+487,670.08,NORTH,9,0,RED,WEST,Still busiest (10 vehicles)
+487,670.08,SOUTH,7,0,RED,WEST,Still busiest (10 vehicles)
+487,670.08,EAST,7,0,RED,WEST,Still busiest (10 vehicles)
+487,670.08,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+488,670.11,NORTH,8,0,RED,WEST,Still busiest (11 vehicles)
+488,670.11,SOUTH,7,0,RED,WEST,Still busiest (11 vehicles)
+488,670.11,EAST,6,0,RED,WEST,Still busiest (11 vehicles)
+488,670.11,WEST,11,0,GREEN,WEST,Still busiest (11 vehicles)
+489,670.42,NORTH,8,0,RED,WEST,Still busiest (11 vehicles)
+489,670.42,SOUTH,7,0,RED,WEST,Still busiest (11 vehicles)
+489,670.42,EAST,6,0,RED,WEST,Still busiest (11 vehicles)
+489,670.42,WEST,11,0,GREEN,WEST,Still busiest (11 vehicles)
+490,670.46,NORTH,6,0,RED,WEST,Still busiest (12 vehicles)
+490,670.46,SOUTH,8,0,RED,WEST,Still busiest (12 vehicles)
+490,670.46,EAST,5,0,RED,WEST,Still busiest (12 vehicles)
+490,670.46,WEST,12,0,GREEN,WEST,Still busiest (12 vehicles)
+491,670.69,NORTH,6,0,RED,WEST,Still busiest (12 vehicles)
+491,670.69,SOUTH,8,0,RED,WEST,Still busiest (12 vehicles)
+491,670.69,EAST,5,0,RED,WEST,Still busiest (12 vehicles)
+491,670.69,WEST,12,0,GREEN,WEST,Still busiest (12 vehicles)
+492,670.72,NORTH,8,0,RED,WEST,Still busiest (11 vehicles)
+492,670.72,SOUTH,6,0,RED,WEST,Still busiest (11 vehicles)
+492,670.72,EAST,5,0,RED,WEST,Still busiest (11 vehicles)
+492,670.72,WEST,11,0,GREEN,WEST,Still busiest (11 vehicles)
+493,670.98,NORTH,8,0,RED,WEST,Still busiest (11 vehicles)
+493,670.98,SOUTH,6,0,RED,WEST,Still busiest (11 vehicles)
+493,670.98,EAST,5,0,RED,WEST,Still busiest (11 vehicles)
+493,670.98,WEST,11,0,GREEN,WEST,Still busiest (11 vehicles)
+494,671.03,NORTH,7,0,RED,WEST,Still busiest (10 vehicles)
+494,671.03,SOUTH,5,0,RED,WEST,Still busiest (10 vehicles)
+494,671.03,EAST,5,0,RED,WEST,Still busiest (10 vehicles)
+494,671.03,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+495,671.26,NORTH,7,0,RED,WEST,Still busiest (10 vehicles)
+495,671.26,SOUTH,5,0,RED,WEST,Still busiest (10 vehicles)
+495,671.26,EAST,5,0,RED,WEST,Still busiest (10 vehicles)
+495,671.26,WEST,10,0,GREEN,WEST,Still busiest (10 vehicles)
+496,671.29,NORTH,7,0,RED,WEST,Still busiest (14 vehicles)
+496,671.29,SOUTH,5,0,RED,WEST,Still busiest (14 vehicles)
+496,671.29,EAST,6,0,RED,WEST,Still busiest (14 vehicles)
+496,671.29,WEST,14,0,GREEN,WEST,Still busiest (14 vehicles)
+497,671.53,NORTH,7,0,RED,WEST,Still busiest (14 vehicles)
+497,671.53,SOUTH,5,0,RED,WEST,Still busiest (14 vehicles)
+497,671.53,EAST,6,0,RED,WEST,Still busiest (14 vehicles)
+497,671.53,WEST,14,0,GREEN,WEST,Still busiest (14 vehicles)
+498,671.57,NORTH,8,0,RED,WEST,Still busiest (12 vehicles)
+498,671.57,SOUTH,6,0,RED,WEST,Still busiest (12 vehicles)
+498,671.57,EAST,6,0,RED,WEST,Still busiest (12 vehicles)
+498,671.57,WEST,12,0,GREEN,WEST,Still busiest (12 vehicles)
+499,671.87,NORTH,8,0,RED,WEST,Still busiest (12 vehicles)
+499,671.87,SOUTH,6,0,RED,WEST,Still busiest (12 vehicles)
+499,671.87,EAST,6,0,RED,WEST,Still busiest (12 vehicles)
+499,671.87,WEST,12,0,GREEN,WEST,Still busiest (12 vehicles)

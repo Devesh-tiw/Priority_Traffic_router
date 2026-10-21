@@ -1,309 +1,261 @@
 # 🚦 Smart Intersection AI — Priority Traffic Router
 
-> **Traffic lights that can SEE.** Cameras + AI watch all 4 roads and turn the light GREEN for ambulances & police — in under 1 second.
+> **Traffic lights that can SEE.** Four cameras watch the approach roads; the AI picks the
+> green light — **ambulance / police first**, otherwise the busiest lane.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/YOLOv8-Ultralytics-00D9FF?style=for-the-badge&logo=yolo&logoColor=white" alt="YOLOv8"/>
-  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-red?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-  <img src="https://img.shields.io/badge/NumPy-Matrix-green?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/YOLOv8-Ultralytics-00D9FF?style=for-the-badge" alt="YOLOv8"/>
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT"/>
+  <img src="https://img.shields.io/badge/tests-13%20passing-3cdc3c?style=for-the-badge" alt="tests"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/Devesh-tiw/Priority_Traffic_router?style=social" alt="stars"/>
-  <img src="https://img.shields.io/github/forks/Devesh-tiw/Priority_Traffic_router?style=social" alt="forks"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="license"/>
-  <img src="https://img.shields.io/badge/Made%20in-India 🇮🇳-orange" alt="made in india"/>
-</p>
+![dashboard](demo/dashboard.png)
 
 ---
 
-## 📖 Table of Contents
+## 📌 Status at a glance (read this first)
 
-- [The Problem — In Simple Words](#-the-problem--in-simple-words)
-- [Our Solution](#-our-solution)
-- [✨ Features](#-features)
-- [🎬 Demo](#-demo)
-- [🧠 How It Works](#-how-it-works)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [📁 Project Structure](#-project-structure)
-- [🚀 Getting Started](#-getting-started)
-- [💻 Usage](#-usage)
-- [📊 Results](#-results)
-- [🔮 Future Scope](#-future-scope)
-- [👥 Team](#-team)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+This project is **running code, not a mock-up**. Everything below is the honest state of it:
 
----
-
-## 😟 The Problem — In Simple Words
-
-Today's traffic lights are **blind**. They can't see. They just repeat red-green on a fixed timer.
-
-| # | Real-life pain | What happens |
+| Capability | State | Notes |
 |---|---|---|
-| 1 | 🚑 **Ambulance stuck** | Patient inside, light stays red, cars around have no space to move. Minutes lost = life in danger. |
-| 2 | 🚓 **Police get late** | Road is empty, but light is still red. Response time wasted. |
-| 3 | 🚗 **Wrong green** | Empty lane gets green, full lane waits. Petrol + time wasted. |
-| 4 | 🔊 **Siren fails** | Everyone hears the siren, but the road is so packed that nobody *can* move. |
+| 2×2 live dashboard, 4 lanes, HUD, traffic lights | ✅ working | `python main.py` |
+| Vehicle counting per lane (YOLOv8n, pretrained COCO) | ✅ working | night footage from the shipped clips |
+| Density-based green selection + fairness timers | ✅ working | unit-tested decision logic |
+| Emergency preemption logic (green that lane, red the rest, hold to clear) | ✅ working | 13 unit tests |
+| **Real** ambulance recognition | ⚠️ needs `models/best.pt` | COCO has **no** ambulance class — see below |
+| Emergency demo *today* | ✅ simulation | `--simulate NORTH` / the dashboard buttons |
+| Training pipeline for the ambulance/police model | ✅ written, needs GPU time | `prepare_dataset.py` → `train.py` / Colab |
+| Browser dashboard | ✅ working | `python web/dashboard.py` |
+| ESP32 / real signal hardware | ❌ future scope | not implemented |
 
----
-
-## 💡 Our Solution
-
-Give the intersection **eyes (camera)** + **a brain (AI)**:
-
-```
-Camera watches 4 roads → AI finds vehicles → Ambulance? → Its road GREEN, others RED
-                                                        → No ambulance? → Busiest road GREEN
-```
-
-**In one line:**
-
-> 🟢 Ambulance road = **GREEN** &nbsp;&nbsp;•&nbsp;&nbsp; 🔴 All other roads = **RED**
-
----
-
-## ✨ Features
-
-- 👀 **Live 4-lane monitoring** — North, South, East, West on one 2×2 screen
-- 🚑 **Emergency preemption** — Ambulance / police detected → instant GREEN (< 1 sec)
-- 🚗 **Smart congestion control** — No emergency? The lane with most vehicles gets GREEN
-- 📦 **Bounding-box overlays** — See what the AI sees: `car 0.91`, `truck 0.86`, `ambulance 0.97`
-- 📺 **Dynamic HUD** — Live RED/GREEN status, vehicle counts & flashing ⚠️ EMERGENCY alerts
-- 🛟 **Crash-safe** — Exception handling keeps video streams & memory stable
-- 🧩 **Clean OOP design** — Everything inside one `SmartIntersectionAI` class
+**The one honest limitation:** pretrained YOLOv8 (COCO, 80 classes) knows
+`car`, `bus`, `truck`, `motorcycle` — it has never seen the word *ambulance*. So the repo
+ships a **simulation mode** (`--simulate`, hotkeys `1–4`, dashboard buttons) that feeds the
+real decision logic with a real priority-vehicle event. The moment you drop a trained
+`models/best.pt` in place, `detector.py` switches to it automatically and the simulation is no
+longer needed. That is the whole point of `prepare_dataset.py` + `train.py`.
 
 ---
 
 ## 🎬 Demo
 
-> Replace these placeholders with your real screenshots / video 👇
+![emergency](demo/emergency.png)
 
-| 2×2 Live Dashboard | Emergency Override |
-|:---:|:---:|
-| *Add screenshot of your `traffic.mp4` grid here* | *Add screenshot with ⚠️ EMERGENCY + GREEN lane here* |
-
-```bash
-# ▶️ Quick demo video (optional): upload to YouTube and paste link here
-# https://youtube.com/your-demo-link
-```
-
-<details>
-<summary>📸 How to take the screenshot</summary>
-
-1. Run the project (see [Usage](#-usage))
-2. When the 2×2 grid window opens, press `Win + Shift + S` (Windows) or `Cmd + Shift + 4` (Mac)
-3. Save as `demo/dashboard.png` and `demo/emergency.png` in the repo
-4. Update the table above with `![dashboard](demo/dashboard.png)`
-
-</details>
-
----
-
-## 🧠 How It Works
-
-### The 4-step loop (runs ~45 times every second)
-
-```mermaid
-flowchart LR
-    A["📷 STEP 1: LOOK<br/>Grab frames from<br/>N / S / E / W cameras"] --> B["🔍 STEP 2: FIND<br/>YOLOv8 draws boxes<br/>+ names each vehicle"]
-    B --> C{"🧠 STEP 3: DECIDE<br/>Ambulance / Police?"}
-    C -->|YES ✅| D["🟢 GREEN that lane<br/>🔴 RED all others"]
-    C -->|NO ❌| E["🟢 GREEN busiest lane<br/>(most vehicles)"]
-    D --> F["📺 STEP 4: SHOW<br/>Update lights + HUD<br/>↩ loop back"]
-    E --> F
-```
-
-### The decision logic (simple version)
-
-```python
-# This is the heart of the project ❤️
-if priority_vehicle_detected:   # ambulance or police in any lane?
-    that_lane.light = "GREEN"   # open the way!
-    other_lanes.light = "RED"   # stop everyone else
-else:
-    busiest_lane.light = "GREEN"  # most cars wins
-```
-
-### System architecture
-
-```mermaid
-flowchart TB
-    subgraph INPUT["📥 INPUT"]
-        N["📷 North feed"]
-        S["📷 South feed"]
-        E["📷 East feed"]
-        W["📷 West feed"]
-    end
-    subgraph AI["🧠 SMARTINTERSECTION AI (Python)"]
-        Y["YOLOv8 detector"]
-        L["Decision logic"]
-        M["NumPy video matrix<br/>(hstack + vstack)"]
-    end
-    subgraph OUTPUT["📤 OUTPUT"]
-        H["📺 2×2 Dashboard + HUD"]
-        T["🚦 RED / GREEN signals"]
-    end
-    INPUT --> Y --> L --> M --> OUTPUT
-```
-
----
-
-## 🛠️ Tech Stack
-
-| Tool | What it does (simple words) |
+| File | What it shows |
 |---|---|
-| 🐍 **Python** | Main language — everything is written in it |
-| 👁️ **Ultralytics YOLOv8** | Smart eyes — finds & names vehicles in photos, super fast |
-| 📷 **OpenCV** | Handles camera/video reading + draws boxes on screen |
-| 🔢 **NumPy** | Joins 4 videos into 1 screen (`hstack` + `vstack`) |
-| 🧩 **OOP (Classes)** | One `SmartIntersectionAI` box controls the full intersection |
+| `demo/demo.mp4` | 20 s rendered run (H.264, 964×590): live detection, density switching, two simulated ambulance overrides |
+| `demo/dashboard.png` | normal operation — busiest lane green, others red |
+| `demo/emergency.png` | emergency override — flashing magenta banner, ambulance lane green |
+| `demo/decision_log.csv` | one row per lane per frame: counts, light, green lane, reason |
 
 ---
 
-## 📁 Project Structure
+## 🧠 How it decides
 
 ```
-Priority_Traffic_router/
-│
-├── 📄 main.py                  # ▶️ START HERE — run this file
-├── 🧠 smart_intersection.py    # The SmartIntersectionAI class (brain)
-├── 🎥 traffic.mp4              # Sample 4-lane test video
-├── 📦 requirements.txt         # All Python packages needed
-├── 📖 README.md                # You are here!
-│
-├── 📁 models/                  # YOLOv8 weights (e.g. yolov8n.pt)
-├── 📁 demo/                    # Screenshots & demo video
-│   ├── dashboard.png
-│   └── emergency.png
-└── 📁 utils/                   # Helper functions (optional)
+        ┌─────────────┐   ┌───────────────┐   ┌──────────────────┐   ┌──────────────┐
+4 cameras →  YOLOv8    →   per-lane count  →   priority?         →   lights + HUD
+        └─────────────┘   + priority list     ┌── yes → that lane GREEN, rest RED
+                                              └── no  → busiest lane GREEN
 ```
 
-> ⚠️ *File names above are the recommended layout — rename to match your actual files if different.*
+Full rule order (implemented in `controller.py`, tested in `tests/`):
+
+1. **Emergency** — any lane with an ambulance/police/fire vehicle gets GREEN immediately, even
+   inside another lane's green time. Two emergencies → the lane with more priority vehicles wins.
+2. **Hold** — when the ambulance leaves the frame its lane stays GREEN for
+   `--emergency-hold` seconds, because a convoy follows it.
+3. **Density** — no emergency → the lane with most vehicles gets GREEN, but only if it leads the
+   current lane by `--switch-margin` vehicles (hysteresis: kills 1-car flicker).
+4. **Fairness** — every lane holds green at least `--min-green` seconds, and an empty junction
+   keeps the last green instead of going dark.
 
 ---
 
-## 🚀 Getting Started
-
-### 1️⃣ What you need
-
-- Python **3.8 or higher** ([download](https://www.python.org/downloads/))
-- A webcam **or** a traffic video file (like `traffic.mp4`)
-- Works on Windows, Mac & Linux
-
-### 2️⃣ Clone the repo
+## 🚀 Quick start
 
 ```bash
 git clone https://github.com/Devesh-tiw/Priority_Traffic_router.git
 cd Priority_Traffic_router
-```
-
-### 3️⃣ Install everything
-
-```bash
 pip install -r requirements.txt
+
+python main.py                      # live window, demo clips, hotkeys 1-4
 ```
 
-<details>
-<summary>📦 What gets installed? (click to see)</summary>
-
-```txt
-ultralytics      # YOLOv8 AI model
-opencv-python    # camera + video handling
-numpy            # video matrix joining
-```
-
-Or install manually:
+No display (server / lab PC without GUI)? Render a video instead:
 
 ```bash
-pip install ultralytics opencv-python numpy
+python main.py --headless --save demo/demo.mp4 --frames 500 \
+               --simulate NORTH:3:7 --simulate EAST:12:7
 ```
 
-</details>
+Browser dashboard:
+
+```bash
+python web/dashboard.py             # open http://localhost:5000
+```
+
+### Common commands
+
+```bash
+# four separate clips, N S E W
+python main.py --source n.mp4,s.mp4,e.mp4,w.mp4
+
+# two webcams reused for four lanes
+python main.py --source 0 --source 0 --source 1 --source 1
+
+# trained ambulance model
+python main.py --weights models/best.pt
+
+# slow CPU? detect every 3rd frame
+python main.py --detect-every 3
+
+# record a decision log (good for the report)
+python main.py --log demo/decision_log.csv
+
+# run the tests
+python -m unittest discover -s tests -v
+```
+
+| Flag | Default | Meaning |
+|---|---|---|
+| `--source` | demo clips | repeat 4× (or comma separated): video path / camera index |
+| `--weights` | auto | `models/best.pt` if present, else `yolov8n.pt` |
+| `--simulate LANE[:START[:DUR]]` | – | fake ambulance for demos, repeatable |
+| `--min-green` | 3.0 s | minimum green time per lane |
+| `--emergency-hold` | 6.0 s | green held after the ambulance leaves |
+| `--switch-margin` | 2 | vehicle lead needed to steal the green |
+| `--detect-every` | 2 | run YOLO every Nth frame |
+| `--save` / `--headless` | – | write the dashboard to .mp4 / no window |
+| `--log` | – | per-frame CSV decision log |
+
+**Hotkeys:** `Q` quit · `1 2 3 4` simulate an ambulance on N / S / E / W.
+
+> `--save` writes H.264 when your OpenCV build has the encoder, otherwise `mp4v`. Browsers only
+> play H.264, so if the file looks blank in a browser: `ffmpeg -i demo.mp4 -c:v libx264 -pix_fmt yuv420p out.mp4`.
 
 ---
 
-## 💻 Usage
+## 📁 Project structure
 
-### ▶️ Run with sample video (easiest)
-
-```bash
-python main.py --source traffic.mp4
 ```
-
-### 📷 Run with live webcam
-
-```bash
-python main.py --source 0
+Priority_Traffic_router/
+├── main.py                 # CLI entry point (start here)
+├── smart_intersection.py   # Lane, EmergencySimulator, GridRenderer, SmartIntersectionAI
+├── controller.py           # decision logic only — no cv2, fully unit-tested
+├── detector.py             # YOLOv8 wrapper, COCO ↔ custom-model adaptation
+├── config.py               # every tunable value in one place
+├── prepare_dataset.py      # frames → pre-label → split → data.yaml
+├── train.py                # fine-tune YOLOv8 on ambulance/police, auto-copies best.pt
+├── data.yaml               # 4 classes: ambulance, police, car, motorcycle
+├── web/dashboard.py        # Flask + MJPEG browser dashboard
+├── notebooks/train_colab.ipynb  # free-GPU training notebook
+├── tests/test_controller.py     # 13 tests for the decision logic
+├── docs/
+│   ├── REPORT.docx         # submission report (regenerate: python docs/build_report.py)
+│   ├── VIVA_QA.md          # 22 likely questions with model answers
+│   ├── CHECKLIST.md        # what was found, fixed, and what remains (read first)
+│   ├── arch.png            # system architecture diagram
+│   └── decision_flow.png   # decision-rule flow diagram
+├── demo/                   # demo.mp4, screenshots, decision log
+├── models/                 # put best.pt here
+├── yolov8n.pt              # pretrained base weights (COCO, 6.5 MB)
+├── Traffic_north_south.mp4 # sample night footage (1280×720, 21 s)
+└── Traffic_east_west.mp4   # sample night footage (2560×1440, 20 s)
 ```
-
-### 🎛️ What you'll see
-
-- A **2×2 grid** showing all 4 lanes
-- **Boxes + labels** on every vehicle (`car 0.91`, `bus 0.88`…)
-- **Top bar**: which lane is 🟢 GREEN / 🔴 RED + vehicle counts
-- **Flashing alert** when an ambulance is found: `⚠️ EMERGENCY — NORTH GREEN`
-- Press **`Q`** to quit
 
 ---
 
-## 📊 Results
+## 🏋️ Training the real ambulance model (the remaining piece)
+
+`data.yaml` defines **0 ambulance · 1 police · 2 car · 3 motorcycle**. Class *ids* don't matter
+to the code — `detector.py` classifies by **name keywords**, so any model whose class names
+contain `ambulance`, `police`, `fire`, ... is picked up correctly.
+
+```bash
+python prepare_dataset.py frames --video Traffic_east_west.mp4 --out dataset/raw/images
+python prepare_dataset.py prelabel                    # auto-labels cars (big time-saver)
+# → draw ambulance + police boxes by hand in labelImg / Roboflow
+python prepare_dataset.py split                       # train/val + data.yaml + class balance
+python train.py --epochs 100                          # or use notebooks/train_colab.ipynb
+```
+
+`train.py` copies the best weights to `models/best.pt`, and `main.py` starts using them with no
+flags. On a free Colab T4, ~1–3k images takes 40–90 minutes.
+
+> **Check per-class mAP, not overall mAP.** Cars dominate any traffic dataset, so overall mAP can
+> look great while `ambulance` is bad. If ambulance AP50 < 0.6, add more ambulance images —
+> especially Indian 108/EMRI ambulances, at night, from the rear and side.
+
+---
+
+## ✅ How this was verified
+
+| Check | Command | Result |
+|---|---|---|
+| Unit tests (no GPU needed) | `python -m unittest discover -s tests -v` | 13/13 pass |
+| Runs on a clean copy of the code | fresh folder + `main.py` | passes |
+| Custom-model mode switches automatically | fake 4-class checkpoint loaded | `mode: CUSTOM`, priority → `ambulance, police` |
+| Browser dashboard + API | `curl /api/state`, `POST /api/trigger/NORTH` | emergency override confirmed |
+| Demo render reproduces | `--headless --save ... --simulate ...` | 500 frames, 20 s |
+
+## 📊 Results (measured, not guessed)
+
+Measured on a **2-vCPU CPU-only** machine (no GPU), 4 lanes, `imgsz=640`, `--detect-every 2`:
 
 | Metric | Value |
 |---|---|
-| 🎯 Detection accuracy (mAP) | ~98% on test clips |
-| ⚡ Speed | ~45 FPS (real-time) |
-| ⏱️ Emergency override time | < 1 second |
-| 🛣️ Lanes handled | 4 (N / S / E / W) |
+| Detection throughput | ≈ 4.5–5 dashboard frames/s (0.2 s per 4-lane step) |
+| Single YOLOv8n pass (640px, CPU) | ~72 ms |
+| Vehicles detected per night frame | 5–13 per lane with the pretrained COCO model |
+| Decision latency | < 1 frame after detection (pure Python, microseconds) |
+| Test suite | 13/13 passing |
 
-> 💡 *Numbers are from our test runs on `traffic.mp4`. Your results may vary slightly by device.*
+The *decision* is fast; the *detector* is the bottleneck, which is why `--detect-every`,
+`imgsz` and a GPU exist. A real deployment would use a Jetson or a GPU and hit video rate.
 
 ---
 
-## 🔮 Future Scope
+## ⚠️ Limitations (say these before an examiner says them)
 
-| Phase | Plan (simple words) |
-|---|---|
-| **1️⃣ Teach 🇮🇳** | Train YOLO on Indian 108 ambulances & police vehicles using Google Colab — so it never misses |
-| **2️⃣ Connect 🔌** | Join Python with an **ESP32 chip** that switches real red/green LED street lights ON/OFF |
-| **3️⃣ Go alone 🤖** | Put a **Jetson Nano** mini-computer inside the signal box — works even without internet |
+1. **No ambulance class in pretrained COCO** → simulation mode until you train `best.pt`.
+2. **The demo clips contain no emergency vehicles** — they are night-time city traffic, used here
+   to prove detection, counting and switching.
+3. **Two clips feed four lanes** (offset so they don't look identical). Real footage would be 4
+   independent streams.
+4. **No hardware.** The "signal" is drawn on screen; nothing switches a real LED yet.
+5. **Night/glare/low-light** reduces detection confidence — the reason `train.py` uses strong
+   `hsv_v` / `hsv_s` augmentation.
+
+---
+
+## 🔮 Roadmap
+
+| Phase | Work | Status |
+|---|---|---|
+| 1 | Label + train ambulance/police model (Colab) | ⏳ needs labeling time |
+| 2 | Evaluate per-class mAP, tune conf threshold | ⏳ |
+| 3 | ESP32 / Raspberry Pi driving real LEDs over serial or MQTT | ❌ |
+| 4 | Siren (audio) fusion to catch ambulances the camera misses | ❌ |
+| 5 | Multi-junction coordination (green wave for an ambulance route) | ❌ |
 
 ---
 
 ## 👥 Team
 
-Made with ❤️ by **B.Tech AI Engineering, Amrita Vishwa Vidyapeetham (Amaravati)**:
+**B.Tech AI Engineering, Amrita Vishwa Vidyapeetham (Amaravati)**
 
 | Member | Roll No | GitHub |
 |---|---|---|
-| **Devesh Tiwari** | AV.SC.U4AIE25106 | [@Devesh-tiw](https://github.com/Devesh-tiw) |
-| **D. Mani Teja** | AV.SC.U4AIE25103 | — |
-| **C. Pranweswar** | AV.SC.U4AIE25102 | — |
-
----
-
-## 🤝 Contributing
-
-Want to improve this? Easy steps:
-
-1. 🍴 **Fork** this repo (top-right Fork button)
-2. 🌿 **Create a branch**: `git checkout -b my-improvement`
-3. 💾 **Commit**: `git commit -m "Add my improvement"`
-4. 📤 **Push + Pull Request**
-
-Ideas welcome: better UI, Hindi/Telugu alerts, night-mode detection, sound-based siren detection 🔊
-
----
+| Devesh Tiwari | AV.SC.U4AIE25106 | [@Devesh-tiw](https://github.com/Devesh-tiw) |
+| D. Mani Teja | AV.SC.U4AIE25103 | — |
+| C. Pranweswar | AV.SC.U4AIE25102 | — |
 
 ## 📄 License
 
-This project is open-source under the **MIT License** — free to use, modify & share. See [LICENSE](LICENSE) for details.
+MIT — see [LICENSE](LICENSE).
 
----
-
-<p align="center">
-  <b>⭐ If this project helped you, please give it a star! ⭐</b><br/>
-  <i>Ambulance gets GREEN first. Always. 🚑💨</i>
-</p>
+<p align="center"><i>Ambulance gets GREEN first. Always. 🚑💨</i></p>
